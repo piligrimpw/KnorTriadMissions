@@ -1,10 +1,22 @@
 SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#CDF-Role_CrewmanKO"
     Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
+    m_Image "{FADDDB543F14980F}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_NI_CC.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -15,8 +27,20 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
     LoadoutSlotInfo Hat {
      Prefab "{7747BD93D2EB2311}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_CDF.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{342FF5554013488A}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_CDF.et"
+    }
     LoadoutSlotInfo HandWear {
      Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A647D195C15C869}" {
+     PrefabsToSpawn + {
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
     }
    }
   }

@@ -1,0 +1,53 @@
+GameEntity : "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{FDB2BEDD73BCBE10}Assets/Characters/Vests/Vest_6B5/6b5.xob"
+  }
+  SCR_ArmorDamageManagerComponent "{62D6849E44DF20AC}" {
+   "Additional hit zones" {
+    SCR_ArmorHitZone Armor {
+     ColliderNames {
+      "UTM_Vest"
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E58B72A46DA985C}" {
+   Attributes SCR_ItemAttributeCollection "{5E58B72A42751C16}" {
+    ItemDisplayName UIInfo "{5E58B72A586BB2B3}" {
+     Name "#6B5"
+     Description "#6B5_desc"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5E58B72A60406BC7}" {
+     Weight 11
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Canteen {
+     Enabled 0
+    }
+    LoadoutSlotInfo Bayonet {
+     Enabled 0
+    }
+    LoadoutSlotInfo PKpouch1 {
+     PivotID "Spine3"
+     Offset 0.2366 -0.1192 0
+     Angles 2.6831 90 0
+     Prefab "{F03EAAE51C256CFA}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM.et"
+    }
+    LoadoutSlotInfo PKpouch2 {
+     PivotID "Spine3"
+     Offset -0.2421 -0.1158 0
+     Angles 2.6831 270 0
+     Prefab "{F03EAAE51C256CFA}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_100rnd_PKM/Pouch_Soviet_100rnd_PKM.et"
+    }
+   }
+   WornModel "{FDB2BEDD73BCBE10}Assets/Characters/Vests/Vest_6B5/6b5.xob"
+   ItemModel "{8AEE6DF5231E4BAF}Assets/Characters/Vests/Vest_6B5/6b5_item.xob"
+   DeflatedModel "{FDB2BEDD73BCBE10}Assets/Characters/Vests/Vest_6B5/6b5.xob"
+  }
+ }
+}

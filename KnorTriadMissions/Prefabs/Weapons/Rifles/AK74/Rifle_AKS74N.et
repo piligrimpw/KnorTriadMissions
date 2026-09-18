@@ -1,0 +1,48 @@
+GenericEntity : "{EAE9A298979C4721}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{6A64BA510043D371}" {
+     SourceMaterial "AK74_Stock"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{647D1DE8DE70EEE9}" {
+     Enabled 1
+     AttachmentSlot InventoryStorageSlot "{647D1DE8D7A8ECC4}" {
+      Offset 0 0 0
+      Enabled 1
+      Prefab "{FCD61D79609B27A6}Prefabs/Weapons/Attachments/Stocks/Stock_AKS74/Stock_AKS74.et"
+     }
+    }
+    AttachmentSlotComponent "{6A64BA5130975516}" {
+     AttachmentSlot InventoryStorageSlot sightPSO {
+      PivotID "slot_optics"
+      Offset -0.0001 0 0.06
+      ChildPivotID "snap_weapon"
+      InspectionWidgetOffset -0.03 0.0509 0.0171
+     }
+     AttachmentType AttachmentOpticsDovetailSVD "{6A64CB132CCC330D}" {
+     }
+     ShowInInspection 1
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsSwitchSkip 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{4A815EB8B824974A}Prefabs/Weapons/Attachments/Muzzle/FlashHider_AK74/FlashHider_AK74.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

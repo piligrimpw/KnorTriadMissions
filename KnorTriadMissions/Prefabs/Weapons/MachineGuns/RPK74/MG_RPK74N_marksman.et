@@ -1,0 +1,27 @@
+GenericEntity : "{5F365605E36597FB}Prefabs/Weapons/MachineGuns/RPK74/MG_RPK74N.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6058A1FB679DB880}" {
+     AttachmentSlot InventoryStorageSlot dovetailRPK {
+     }
+    }
+    AttachmentSlotComponent "{6A64BA52997CC79A}" {
+     AttachmentSlot InventoryStorageSlot sightPSO {
+      PivotID "slot_optics"
+      Offset 0.0011 0 0.0616
+      ChildPivotID "snap_weapon"
+      Prefab "{C850A33226B8F9C1}Prefabs/Weapons/Attachments/Optics/Optic_PSO1/Optic_PSO1.et"
+     }
+     AttachmentType AttachmentOpticsDovetailSVD "{6A64BA52A073338A}" {
+     }
+     ShowInInspection 1
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,34 @@
+GenericEntity : "{923D948AB0D57A50}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_long_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{6A64B9A63FB75774}" {
+     SourceMaterial "AK74_Stock"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{647D1DE8DE70EEE9}" {
+     Enabled 1
+     AttachmentSlot InventoryStorageSlot "{647D1DE8D7A8ECC4}" {
+      Offset 0 0 0
+      Enabled 1
+      Prefab "{FCD61D79609B27A6}Prefabs/Weapons/Attachments/Stocks/Stock_AKS74/Stock_AKS74.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{4A815EB8B824974A}Prefabs/Weapons/Attachments/Muzzle/FlashHider_AK74/FlashHider_AK74.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

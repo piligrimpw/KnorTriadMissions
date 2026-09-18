@@ -1,0 +1,30 @@
+GenericEntity : "{2DBBEA8AE9BD2C36}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_base.et" {
+ ID "557E85EEE1B603F1"
+ components {
+  MeshObject "{557E85EE39CED921}" {
+   Object "{916D9FBDE2DEE994}Assets/Weapons/Rifles/AKS74U/AKS74U_body.xob"
+   Materials {
+    MaterialAssignClass "{6A64B9A628186EE8}" {
+     SourceMaterial "AK74_Grip"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{6A64B9A628186EFA}" {
+     SourceMaterial "AKS74U_Barrel"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{6A64B9A628186EF1}" {
+     SourceMaterial "AKS74U_Handguard"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{6A64B9A628186ECC}" {
+     SourceMaterial "AKS74U_Receiver1"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{6A64B9A628186ECE}" {
+     SourceMaterial "AKS74U_Receiver2"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,6 +1,22 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
+  CustomStringTableItem "{6A64CE02BB4CBA8F}" {
+   Id "#CDF-Role_HeavyCrew"
+   Target_en_us "Crew member"
+   Target_ru_ru "Член экипажа"
+   Modified 1784994180
+   Author "Вероника"
+   LastChanged "Вероника"
+  }
+  CustomStringTableItem "{6A64CE011819C6E5}" {
+   Id "#CDF-Role_HeavyCrewSL"
+   Target_en_us "Crew commander"
+   Target_ru_ru "Командир экипажа"
+   Modified 1784994264
+   Author "Вероника"
+   LastChanged "Вероника"
+  }
   CustomStringTableItem "{6A64973C3FE1B9F5}" {
    Id "CDF-Role_AT"
    Target_en_us "AT"
@@ -19,19 +35,19 @@ StringTable {
   }
   CustomStringTableItem "{6A64973DF727F970}" {
    Id "CDF-Role_Crewman"
-   Target_en_us "Crewman"
+   Target_en_us "Driver"
    Target_ru_ru "Водитель"
-   Modified 1784981918
+   Modified 1784994139
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A64973DD438E068}" {
    Id "CDF-Role_CrewmanKO"
-   Target_en_us "CrewmanKO"
-   Target_ru_ru "Командир экипажа"
-   Modified 1784981971
+   Target_en_us "Gunner"
+   Target_ru_ru "Наводчик"
+   Modified 1784994128
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A649733C3FBD2B0}" {
    Id "CDF-Role_DeputySL"

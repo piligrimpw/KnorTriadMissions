@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#CDF-Role_RiflemanRPK"
     Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
-    m_Image "{F070A39D537A2555}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_MG.edds"
+    m_Image "{0A1166EE695A1CFD}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_NI_MG.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

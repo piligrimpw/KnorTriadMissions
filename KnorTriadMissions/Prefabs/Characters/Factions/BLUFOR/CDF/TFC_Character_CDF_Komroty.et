@@ -1,17 +1,40 @@
 SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{78ED4FEF62BBA728}Prefabs/Items/Equipment/Watches/Watch_SandY184A.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#СDF-Role_Komroty"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
-    m_Image "{CA3D80DC1CD6D721}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_PL.edds"
+    m_Image "{3AF915E290E61D0E}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_NI_SL.edds"
    }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AFD8BBF0AE1A672B}Prefabs/Weapons/Rifles/AK74/Rifle_AKS74.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{AD561B98FE57C9BD}Clothing/CDF_Commander/Hat/CDF_Commander Cap.et"
+     Prefab "{89FD00CB2909667D}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v1_TTsKO.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{342FF5554013488A}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_CDF.et"
     }
     LoadoutSlotInfo HandWear {
      Enabled 0
@@ -25,7 +48,7 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
      PrefabsToSpawn + {
-      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      "{1C911B6A3A31FACA}Prefabs/Items/Equipment/Radios/Radio_R148_CDF.et"
      }
     }
     ItemsInitConfigurationItem "{6A647D195C15C86B}" {

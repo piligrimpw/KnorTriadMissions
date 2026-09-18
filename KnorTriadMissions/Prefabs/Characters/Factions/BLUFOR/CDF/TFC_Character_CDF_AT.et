@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#CDF-Role_AT"
     Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
-    m_Image "{D8CD3A9B019B8CD2}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_AT.edds"
+    m_Image "{22ACFFE83BBBB57A}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_NI_AT.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {

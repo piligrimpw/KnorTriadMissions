@@ -66,6 +66,12 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
   }
   MeshObject "{5A30BAE7673C63D1}" {
    Object "{1B8B5484D7F21A41}Assets/Items/Equipment/Radios/Radio_ANPRC68/Radio_ANPRC68_01.xob"
+   Materials {
+    MaterialAssignClass "{6A64BA557D3FE60F}" {
+     SourceMaterial "Radio_ANPRC68_01"
+     AssignedMaterial "{9FC2B9956E51FA32}Assets/Items/Equipment/Radios/Radio_ANPRC68/Data/Radio_Baofeng_01.emat"
+    }
+   }
   }
   RigidBody "{5A30BAE7673C63D3}" {
    CenterOfMass 0 0.1 0

@@ -1,0 +1,14 @@
+GenericEntity : "{6DBB4896B5CE0F6A}Prefabs/Weapons/Rifles/AK74/Rifle_AKS74N.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6A64BA5130975516}" {
+     AttachmentSlot InventoryStorageSlot sightPSO {
+      Prefab "{C850A33226B8F9C1}Prefabs/Weapons/Attachments/Optics/Optic_PSO1/Optic_PSO1.et"
+     }
+    }
+   }
+  }
+ }
+}

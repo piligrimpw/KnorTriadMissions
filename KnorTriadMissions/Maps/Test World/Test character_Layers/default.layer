@@ -1,4 +1,16 @@
 SCR_ChimeraCharacter : "{16ECFC348955A8D4}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_CrewKO.et" {
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AFD8BBF0AE1A672B}Prefabs/Weapons/Rifles/AK74/Rifle_AKS74.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{342FF5554013488A}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_CDF.et"
+    }
+   }
+  }
+ }
  coords 1600.782 38.074 2930.875
  angles 0 174.213 0
 }
@@ -6,11 +18,19 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
  coords 1586.987 38 2927.884
  angles 0 162.12 0
 }
+SCR_ChimeraCharacter : "{2809FBA68B40215D}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrew.et" {
+ coords 1603.568 38.118 2931.712
+}
 SCR_ChimeraCharacter : "{2EFAD9BA44475DDD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Marksman.et" {
  coords 1598.761 38.051 2930.76
  angles 0 170.146 0
 }
 SCR_ChimeraCharacter : "{30C97E6A432435F8}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MGass.et" {
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+  }
+ }
  coords 1595.809 38.027 2930.042
  angles 0 165.359 0
 }
@@ -19,12 +39,31 @@ SCR_ChimeraCharacter : "{3599F74FE00D3286}Prefabs/Characters/Factions/BLUFOR/CDF
  angles 0 157.795 0
 }
 SCR_ChimeraCharacter : "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et" {
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AFD8BBF0AE1A672B}Prefabs/Weapons/Rifles/AK74/Rifle_AKS74.et"
+  }
+ }
  coords 1592.798 38 2929.546
  angles 0 161.718 0
 }
 SCR_ChimeraCharacter : "{434311284ADE3613}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_LAT.et" {
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+  }
+ }
  coords 1602.533 38.1 2931.085
  angles 0 164.019 0
+}
+SCR_ChimeraCharacter : "{570731D58612E374}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanPSO.et" {
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3616F633141F6397}Prefabs/Weapons/Rifles/AK74/Rifle_AKS74N_PSO.et"
+  }
+ }
+ coords 1591.427 38 2930.411
+ angles 0 160.607 0
 }
 SCR_ChimeraCharacter : "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_KO.et" {
  coords 1588.074 38 2928.21
@@ -35,6 +74,11 @@ SCR_ChimeraCharacter : "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF
  angles 0 168.277 0
 }
 SCR_ChimeraCharacter : "{7C4124E9CCC790CA}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Rifleman.et" {
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AFD8BBF0AE1A672B}Prefabs/Weapons/Rifles/AK74/Rifle_AKS74.et"
+  }
+ }
  coords 1591.827 38 2929.269
  angles 0 163.536 0
 }
@@ -46,11 +90,28 @@ SCR_ChimeraCharacter : "{955E989C5F6D19C3}Prefabs/Characters/Factions/BLUFOR/CDF
  coords 1589.975 38 2928.86
  angles 0 163.266 0
 }
+SCR_ChimeraCharacter : "{B325E4A16D9D1655}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrewKO.et" {
+ coords 1604.588 38.134 2932.092
+}
 SCR_ChimeraCharacter : "{B4AEF666A0CB4362}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MG.et" {
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B8C98AAF1CCD4601}Prefabs/Characters/Vests/Vest_6B5/Vest_6B5_MG.et"
+    }
+   }
+  }
+ }
  coords 1594.821 38.013 2929.799
  angles 0 155.123 0
 }
 SCR_ChimeraCharacter : "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et" {
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+  }
+ }
  coords 1593.846 38 2929.749
  angles 0 162.432 0
 }
@@ -61,6 +122,9 @@ SCR_ChimeraCharacter : "{E539F9FA00976C59}Prefabs/Characters/Factions/BLUFOR/CDF
     Name "#CDF-Role_Crewman"
     Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
    }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AFD8BBF0AE1A672B}Prefabs/Weapons/Rifles/AK74/Rifle_AKS74.et"
   }
  }
  coords 1601.684 38.085 2930.999

@@ -1,11 +1,22 @@
 SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#CDF-Role_MGass"
     Icon "{FB48FAD32DA8BC91}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AmmoBearer.edds"
-    m_Image "{F0EEA278F6C850CE}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_AAT.edds"
+    m_Image "{0014B0CABFDC9785}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_NI_AAT.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

@@ -1,0 +1,32 @@
+GenericEntity : "{9132672C4D9B2102}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_FIA.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_HealSupportStationComponent "{5E68A54C698EFD84}" {
+   m_bSendNotificationOnUse 0
+   m_iDamageHealedEachExecution 7
+   m_fMaxHealScaled 0.85
+   m_iBloodHealedEachExecute 400
+   m_fMaxBloodScaled 0.85
+  }
+  SCR_ResourceComponent "{5E4A957708B43723}" {
+   m_aDisabledResourceTypes {
+    SUPPLIES
+   }
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{5E3CC268AFE7341C}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    SCR_ResupplySelfSupportStationAction "{5E3CC268E10A1B09}" {
+     ParentContextList {
+     }
+    }
+    SCR_ResupplySelfSupportStationAction "{5E3CC268E31927C2}" {
+     ParentContextList {
+     }
+    }
+   }
+  }
+ }
+}

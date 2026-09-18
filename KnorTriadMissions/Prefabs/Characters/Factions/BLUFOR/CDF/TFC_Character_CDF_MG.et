@@ -1,11 +1,22 @@
 SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{78ED4FEF62BBA728}Prefabs/Items/Equipment/Watches/Watch_SandY184A.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#CDF-Role_MG"
     Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
-    m_Image "{F070A39D537A2555}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_MG.edds"
+    m_Image "{0A1166EE695A1CFD}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_NI_MG.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -15,6 +26,9 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
    Slots {
     LoadoutSlotInfo Hat {
      Prefab "{792FC17D6F606408}SavedClothing/SavedClothing_ChernarusGov/Chernarus_Government/CDF_Military/CDF_Infantry_Gear/CDF_PASGTGoggles_CDFTTsKO.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B8C98AAF1CCD4601}Prefabs/Characters/Vests/Vest_6B5/Vest_6B5_MG.et"
     }
     LoadoutSlotInfo Back {
      Enabled 0
@@ -27,6 +41,18 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+    }
+    ItemsInitConfigurationItem "{6A647D195C15C86B}" {
+     TargetStorage "ArmoredVest/Vest_6B5_MG.et/PKpouch1/Pouch_Soviet_100rnd_PKM.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A64CE119930E5DD}" {
+     TargetStorage "ArmoredVest/Vest_6B5_MG.et/PKpouch2/Pouch_Soviet_100rnd_PKM.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
     }
    }
   }
