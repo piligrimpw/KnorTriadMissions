@@ -1,22 +1,6 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
-  CustomStringTableItem "{6A64CE02BB4CBA8F}" {
-   Id "#CDF-Role_HeavyCrew"
-   Target_en_us "Crew member"
-   Target_ru_ru "Член экипажа"
-   Modified 1784994180
-   Author "Вероника"
-   LastChanged "Вероника"
-  }
-  CustomStringTableItem "{6A64CE011819C6E5}" {
-   Id "#CDF-Role_HeavyCrewSL"
-   Target_en_us "Crew commander"
-   Target_ru_ru "Командир экипажа"
-   Modified 1784994264
-   Author "Вероника"
-   LastChanged "Вероника"
-  }
   CustomStringTableItem "{6A64973C3FE1B9F5}" {
    Id "CDF-Role_AT"
    Target_en_us "AT"
@@ -54,6 +38,22 @@ StringTable {
    Target_en_us "DeputySL"
    Target_ru_ru "Старший стрелок"
    Modified 1784980958
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A64CE02BB4CBA8F}" {
+   Id "CDF-Role_HeavyCrew"
+   Target_en_us "Crew member"
+   Target_ru_ru "Член экипажа"
+   Modified 1785121946
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A64CE011819C6E5}" {
+   Id "CDF-Role_HeavyCrewSL"
+   Target_en_us "Crew commander"
+   Target_ru_ru "Командир экипажа"
+   Modified 1785121950
    Author "User"
    LastChanged "User"
   }
@@ -134,6 +134,118 @@ StringTable {
    Target_en_us "ZamKomroty"
    Target_ru_ru "Заместитель командира роты"
    Modified 1784981154
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A6685860EF53402}" {
+   Id "IMF-Role_AT"
+   Target_en_us "AT"
+   Target_ru_ru "Гранатомётчик"
+   Modified 1785123088
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A66858628750FA7}" {
+   Id "IMF-Role_ATass"
+   Target_en_us "ATass"
+   Target_ru_ru "Помощник гранатомётчика"
+   Modified 1785123154
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A6685891E5C599D}" {
+   Id "IMF-Role_Crew"
+   Target_en_us "Crew"
+   Target_ru_ru "Экипаж"
+   Modified 1785123514
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A66858954BE9E12}" {
+   Id "IMF-Role_CrewKO"
+   Target_en_us "CrewKO"
+   Target_ru_ru "Командир экипажа"
+   Modified 1785123490
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A66858652F13310}" {
+   Id "IMF-Role_KO"
+   Target_en_us "KO"
+   Target_ru_ru "Командир отделения"
+   Modified 1785122953
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A668584D4BACEBE}" {
+   Id "IMF-Role_Komroty"
+   Target_en_us "Komroty"
+   Target_ru_ru "Командир роты"
+   Modified 1785122020
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A668586BFEBD913}" {
+   Id "IMF-Role_Marksman"
+   Target_en_us "Marksman"
+   Target_ru_ru "Снайпер"
+   Modified 1785123341
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A668586A30AAD47}" {
+   Id "IMF-Role_Medic"
+   Target_en_us "Medic"
+   Target_ru_ru "Медик"
+   Modified 1785123380
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A668586CDF3A6DE}" {
+   Id "IMF-Role_MG"
+   Target_en_us "MG"
+   Target_ru_ru "Пулемётчик"
+   Modified 1785123205
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A668586F7C34A8E}" {
+   Id "IMF-Role_MGass"
+   Target_en_us "MGass"
+   Target_ru_ru "Помощник пулемётчика"
+   Modified 1785123249
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A66858666665025}" {
+   Id "IMF-Role_Rifleman"
+   Target_en_us "Rifleman"
+   Target_ru_ru "Стрелок"
+   Modified 1785123043
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A66858691C66E04}" {
+   Id "IMF-Role_RiflemanRPK"
+   Target_en_us "RiflemanRPK"
+   Target_ru_ru "Стрелок-пулемётчик"
+   Modified 1785123300
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A66858795835C90}" {
+   Id "IMF-Role_Zamcomroty"
+   Target_en_us "Zamcomroty"
+   Target_ru_ru "Зам командира роты"
+   Modified 1785122857
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A6685867E08911F}" {
+   Id "IMF-Role_ZKO"
+   Target_en_us "ZKO"
+   Target_ru_ru "Зам командира отделения"
+   Modified 1785123008
    Author "User"
    LastChanged "User"
   }

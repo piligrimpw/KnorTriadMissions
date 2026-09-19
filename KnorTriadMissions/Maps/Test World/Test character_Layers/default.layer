@@ -1,3 +1,11 @@
+SCR_ChimeraCharacter : "{00909D859A75254B}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Zamcomroty.et" {
+ coords 1608.991 38.218 2933.114
+ angles 0 169.969 0
+}
+SCR_ChimeraCharacter : "{14F9E188015D3BE1}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Komroty.et" {
+ coords 1607.879 38.205 2932.773
+ angles 0 170.623 0
+}
 SCR_ChimeraCharacter : "{16ECFC348955A8D4}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_CrewKO.et" {
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -18,12 +26,24 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
  coords 1586.987 38 2927.884
  angles 0 162.12 0
 }
+SCR_ChimeraCharacter : "{235AEC43AEC6AFA0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ATass.et" {
+ coords 1614.76 38.391 2934.465
+ angles 0 164.615 0
+}
 SCR_ChimeraCharacter : "{2809FBA68B40215D}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrew.et" {
  coords 1603.568 38.118 2931.712
+}
+SCR_ChimeraCharacter : "{2AD97345DD9316E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKO.et" {
+ coords 1611.231 38.289 2933.522
+ angles 0 154.618 0
 }
 SCR_ChimeraCharacter : "{2EFAD9BA44475DDD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Marksman.et" {
  coords 1598.761 38.051 2930.76
  angles 0 170.146 0
+}
+SCR_ChimeraCharacter : "{309FCD1385879103}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_AT.et" {
+ coords 1613.627 38.361 2934.138
+ angles 0 167.037 0
 }
 SCR_ChimeraCharacter : "{30C97E6A432435F8}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MGass.et" {
  components {
@@ -37,6 +57,10 @@ SCR_ChimeraCharacter : "{30C97E6A432435F8}Prefabs/Characters/Factions/BLUFOR/CDF
 SCR_ChimeraCharacter : "{3599F74FE00D3286}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanRPK.et" {
  coords 1596.785 38.043 2930.31
  angles 0 157.795 0
+}
+SCR_ChimeraCharacter : "{3D89C9CFA0BD3D83}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Marksman.et" {
+ coords 1620.233 38.57 2936.116
+ angles 0 158.325 0
 }
 SCR_ChimeraCharacter : "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et" {
  components {
@@ -69,9 +93,32 @@ SCR_ChimeraCharacter : "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF
  coords 1588.074 38 2928.21
  angles 0 161.001 0
 }
+SCR_ChimeraCharacter : "{682DCBA09335C23D}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KO.et" {
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#IMF-Role_KO"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+ }
+ coords 1610.124 38.254 2933.411
+ angles 0 164.7 0
+}
+SCR_ChimeraCharacter : "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et" {
+ coords 1612.233 38.32 2933.826
+ angles 0 156.419 0
+}
 SCR_ChimeraCharacter : "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et" {
  coords 1599.689 38.057 2930.873
  angles 0 168.277 0
+}
+SCR_ChimeraCharacter : "{784BD64DD7A899E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanRPK.et" {
+ coords 1619.032 38.532 2935.729
+ angles 0 153.594 0
 }
 SCR_ChimeraCharacter : "{7C4124E9CCC790CA}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Rifleman.et" {
  components {
@@ -82,6 +129,20 @@ SCR_ChimeraCharacter : "{7C4124E9CCC790CA}Prefabs/Characters/Factions/BLUFOR/CDF
  coords 1591.827 38 2929.269
  angles 0 163.536 0
 }
+SCR_ChimeraCharacter : "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Medic.et" {
+ coords 1621.741 38.617 2936.57
+ angles 0 147.238 0
+}
+$grp SCR_ChimeraCharacter : "{86FD9CD0A2E64B07}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_CrewKO.et" {
+ {
+  coords 1622.793 38.65 2936.963
+  angles 0 143.045 0
+ }
+ {
+  coords 1623.697 38.678 2937.318
+  angles 0 163.297 0
+ }
+}
 SCR_ChimeraCharacter : "{8DBCA0BE2F71176A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ZamKomroty.et" {
  coords 1590.797 38 2929.184
  angles 0 168.395 0
@@ -89,6 +150,10 @@ SCR_ChimeraCharacter : "{8DBCA0BE2F71176A}Prefabs/Characters/Factions/BLUFOR/CDF
 SCR_ChimeraCharacter : "{955E989C5F6D19C3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Komroty.et" {
  coords 1589.975 38 2928.86
  angles 0 163.266 0
+}
+SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_base.et" {
+ coords 1606.939 38.186 2932.435
+ angles 0 159.699 0
 }
 SCR_ChimeraCharacter : "{B325E4A16D9D1655}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrewKO.et" {
  coords 1604.588 38.134 2932.092
@@ -105,6 +170,14 @@ SCR_ChimeraCharacter : "{B4AEF666A0CB4362}Prefabs/Characters/Factions/BLUFOR/CDF
  }
  coords 1594.821 38.013 2929.799
  angles 0 155.123 0
+}
+SCR_ChimeraCharacter : "{BA207AC892419BBC}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_MG.et" {
+ coords 1616.453 38.452 2934.977
+ angles 0 162.184 0
+}
+SCR_ChimeraCharacter : "{C0DFD7647229FAC0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_MGass.et" {
+ coords 1617.724 38.491 2935.415
+ angles 0 155.245 0
 }
 SCR_ChimeraCharacter : "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et" {
  components {

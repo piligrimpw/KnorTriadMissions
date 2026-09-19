@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{86FD9CD0A2E64B07}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_CrewKO.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

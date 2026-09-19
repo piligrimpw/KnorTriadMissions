@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{784BD64DD7A899E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanRPK.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
