@@ -1,6 +1,12 @@
 SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#IMF-Role_KO"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{33EA9417953039B4}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74Uu.et"
   }
@@ -19,7 +25,7 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
      Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{4690DAECCF413CCA}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_FIA.et"
+     Prefab "{4690DAECCF413CCA}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_IMF.et"
     }
     LoadoutSlotInfo Face {
      Prefab "{CB8F70B71FB0ED27}Prefabs/Characters/HeadGear/Balaclavas/cotton_balaclava_standalone.et"
@@ -31,7 +37,7 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
     ItemsInitConfigurationItem "{6A6685AAFCF76FED}" {
      TargetStorage "Jacket/Jacket_M88Spets_Tucked.et"
      PrefabsToSpawn {
-      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "" "" "" "{1F770FB6FB76DB1E}Prefabs/Items/Equipment/Radios/Radio_BaofengFIA.et"
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "" "" "" "{1F770FB6FB76DB1E}Prefabs/Items/Equipment/Radios/Radio_Baofeng_IMF.et"
      }
     }
     ItemsInitConfigurationItem "{6A6685AAFCD76461}" {

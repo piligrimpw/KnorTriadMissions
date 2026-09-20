@@ -137,6 +137,38 @@ StringTable {
    Author "User"
    LastChanged "User"
   }
+  CustomStringTableItem "{6A688868434CE9A0}" {
+   Id "IMF-Group_Crew"
+   Target_en_us "Crew"
+   Target_ru_ru "Экипаж техники"
+   Modified 1785242554
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A68886B0327ACE1}" {
+   Id "IMF-Group_Fireteam"
+   Target_en_us "Fireteam"
+   Target_ru_ru "Противотанковая группа"
+   Modified 1785242270
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A68886D2204FF75}" {
+   Id "IMF-Group_Officer"
+   Target_en_us "Officer"
+   Target_ru_ru "Штаб роты"
+   Modified 1785241125
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A68886B97DB2069}" {
+   Id "IMF-Group_RifleSquad"
+   Target_en_us "RifleSquad"
+   Target_ru_ru "Стрелковая группа"
+   Modified 1785242406
+   Author "User"
+   LastChanged "User"
+  }
   CustomStringTableItem "{6A6685860EF53402}" {
    Id "IMF-Role_AT"
    Target_en_us "AT"
@@ -246,6 +278,62 @@ StringTable {
    Target_en_us "ZKO"
    Target_ru_ru "Зам командира отделения"
    Modified 1785123008
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A68A4062B6F5CC1}" {
+   Id "TFC-Group_Crew"
+   Target_en_us "Crew"
+   Target_ru_ru "Экипаж техники"
+   Modified 1785244681
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A68A406709A85EC}" {
+   Id "TFC-Group_MotorRifleSquad"
+   Target_en_us "MotorRifleSquad"
+   Target_ru_ru "Мотострелковое отделение"
+   Modified 1785244550
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A68A4018A121DB7}" {
+   Id "TFC-Group_Officer"
+   Target_en_us "Officer"
+   Target_ru_ru "Штаб роты"
+   Modified 1785244396
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A68A401CED1A605}" {
+   Id "TFC-Group_Riflesquad"
+   Target_en_us "Riflesquad"
+   Target_ru_ru "Стрелковое отделение"
+   Modified 1785244293
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A68834A06F657B1}" {
+   Id "TFI-Faction_IMF-UC"
+   Target_en_us "IMF"
+   Target_ru_ru "Ополченцы"
+   Modified 1785234888
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A68834B168F11BA}" {
+   Id "TFI-FactionName_IMF"
+   Target_en_us "IMF"
+   Target_ru_ru "Ополченцы"
+   Modified 1785234460
+   Author "User"
+   LastChanged "User"
+  }
+  CustomStringTableItem "{6A688862E8BFF28C}" {
+   Id "TFI-Flag_IMF"
+   Target_en_us "Flag IMF"
+   Target_ru_ru "Флаг ополчения"
+   Modified 1785237987
    Author "User"
    LastChanged "User"
   }

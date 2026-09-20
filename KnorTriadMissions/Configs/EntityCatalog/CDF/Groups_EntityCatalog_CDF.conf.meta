@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E21683FEC0B6C7B5}Configs/EntityCatalog/CDF/Groups_EntityCatalog_CDF.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{68FD78047704406B}Configs/EntityCatalog/FIA/Characters_EntityCatalog_IMF.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

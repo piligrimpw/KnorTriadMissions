@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Mil
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#IMF-Role_Crew"
+    Name "#IMF-Role_CrewKO"
     Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
    }
   }
@@ -26,7 +26,7 @@ SCR_ChimeraCharacter : "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Mil
     }
     LoadoutSlotInfo Back {
      Enabled 1
-     Prefab "{4690DAECCF413CCA}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_FIA.et"
+     Prefab "{4690DAECCF413CCA}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_IMF.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{A51B5534915AE3B6}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_belt_empty.et"

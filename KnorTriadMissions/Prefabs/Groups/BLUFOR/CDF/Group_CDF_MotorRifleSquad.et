@@ -1,0 +1,13 @@
+SCR_AIGroup : "{E38E145599D08952}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TFC-Group_MotorRifleSquad"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_KO.et" "{FAE1B46F165890A7}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ZKO.et" "{3599F74FE00D3286}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanRPK.et" "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et" "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et" "{7C4124E9CCC790CA}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Rifleman.et" "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et" "{16ECFC348955A8D4}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_CrewKO.et" "{E539F9FA00976C59}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Crew.et"
+ }
+}

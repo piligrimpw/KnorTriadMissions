@@ -2,15 +2,11 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
  ID "508AB2013EEE1E00"
  components {
   BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "greenBear"
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
-     "Frequency resolution" 200
-    }
-    RadioTransceiver "{6A64CB120FB155BF}" {
-     "Transmitting Range" 2000
-     "Min tunable frequency" 30000
-     "Max tunable frequency" 76000
+     "Transmitting Range" 10000
      "Frequency resolution" 200
     }
    }
