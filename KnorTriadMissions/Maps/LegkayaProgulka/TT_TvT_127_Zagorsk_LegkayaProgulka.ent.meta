@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{93F617AE1EEB7E4A}Maps/TT_TvT_127_Zagorsk_LegkayaProgulka/TT_TvT_127_Zagorsk_LegkayaProgulka.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
