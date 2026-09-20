@@ -1,0 +1,13 @@
+SCR_AIGroup : "{E38E145599D08952}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TFC-Group_Crew"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{B325E4A16D9D1655}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrewKO.et" "{2809FBA68B40215D}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrew.et"
+ }
+}

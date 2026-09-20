@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1EB41ECC133CE55E}Configs/EntityCatalog/FIA/WeaponTripod_EntityCatalog_IMF.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

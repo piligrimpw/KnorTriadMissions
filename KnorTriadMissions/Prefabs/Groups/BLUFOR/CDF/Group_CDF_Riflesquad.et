@@ -1,0 +1,13 @@
+SCR_AIGroup : "{E38E145599D08952}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#TFC-Group_Riflesquad"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_KO.et" "{FAE1B46F165890A7}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ZKO.et" "{B4AEF666A0CB4362}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MG.et" "{30C97E6A432435F8}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MGass.et" "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et" "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et" "{7C4124E9CCC790CA}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Rifleman.et" "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et"
+ }
+}

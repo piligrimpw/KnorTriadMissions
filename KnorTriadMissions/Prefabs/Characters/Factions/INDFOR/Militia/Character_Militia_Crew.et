@@ -1,3 +1,17 @@
 SCR_ChimeraCharacter : "{86FD9CD0A2E64B07}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_CrewKO.et" {
  ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#IMF-Role_Crew"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Enabled 0
+    }
+   }
+  }
+ }
 }
