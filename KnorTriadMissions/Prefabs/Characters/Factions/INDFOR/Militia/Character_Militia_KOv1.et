@@ -1,6 +1,16 @@
 SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#IMF-Role_KO"
@@ -9,6 +19,9 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{33EA9417953039B4}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74Uu.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -27,6 +40,8 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
     LoadoutSlotInfo Back {
      Prefab "{4690DAECCF413CCA}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_IMF.et"
     }
+    LoadoutSlotInfo Vest {
+    }
     LoadoutSlotInfo Face {
      Prefab "{CB8F70B71FB0ED27}Prefabs/Characters/HeadGear/Balaclavas/cotton_balaclava_standalone.et"
     }
@@ -35,13 +50,15 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6A6685AAFCF76FED}" {
-     TargetStorage "Jacket/Jacket_M88Spets_Tucked.et"
+     TargetStorage "Pants/Pants_US_M65.et"
      PrefabsToSpawn {
-      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "" "" "" "{1F770FB6FB76DB1E}Prefabs/Items/Equipment/Radios/Radio_Baofeng_IMF.et"
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et" "{FC79F6BDEB7F1BC2}Prefabs/Weapons/Flares/Flare_RSP30_green.et" "{36218D5F0C7095E6}Prefabs/Weapons/Flares/Flare_RSP30_red.et" "{1F770FB6FB76DB1E}Prefabs/Items/Equipment/Radios/Radio_Baofeng_IMF.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{E5912E45754CD421}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6A6685AAFCD76461}" {
-     TargetStorage "Pants/Pants_US_M65.et"
+     TargetStorage "Jacket/Jacket_M88Spets_Tucked.et"
+     PrefabsToSpawn +{
+     }
     }
     ItemsInitConfigurationItem "{6A6685AAFC0E8D91}" {
      PrefabsToSpawn {

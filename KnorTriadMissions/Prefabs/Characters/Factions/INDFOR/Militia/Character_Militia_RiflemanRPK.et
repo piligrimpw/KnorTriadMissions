@@ -13,10 +13,10 @@ SCR_ChimeraCharacter : "{235AEC43AEC6AFA0}Prefabs/Characters/Factions/INDFOR/Mil
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{E97A86BB050ED6D1}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_blue_Dirty.et"
+     Prefab "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{ADE34D4DDA6B4591}Clothing/Rocker/Jacket 2/Rocker Jacket 2.et"
+     Prefab "{0AA3043098182BCA}Clothing/Hooded indi soldier/Jacket/indi hood jacket.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{A682B941293F4321}Clothing/Rocker/Pants 3/Rocker Pants 3.et"
@@ -28,17 +28,23 @@ SCR_ChimeraCharacter : "{235AEC43AEC6AFA0}Prefabs/Characters/Factions/INDFOR/Mil
      Prefab "{443304F1EC50BC27}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok_Black.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+     Prefab "{4711A4CAF64C4CEE}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_AR.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6A6685AAFCF76FED}" {
-     TargetStorage "Jacket/Rocker Jacket 2.et"
+     TargetStorage "Pants/Rocker Pants 3.et"
+     PrefabsToSpawn {
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
     }
     ItemsInitConfigurationItem "{6A6685AAFCD76461}" {
-     TargetStorage "Pants/Rocker Pants 3.et"
+     TargetStorage "Jacket/indi hood jacket.et"
     }
     ItemsInitConfigurationItem "{6A6685AAFC0E8D91}" {
      TargetStorage "Vest/Vest_Lifchik.et"
@@ -47,10 +53,19 @@ SCR_ChimeraCharacter : "{235AEC43AEC6AFA0}Prefabs/Characters/Factions/INDFOR/Mil
      }
     }
     ItemsInitConfigurationItem "{6A6685ADEEDC233F}" {
-     TargetStorage "Back/Backpack_Veshmeshok_Black.et"
+     TargetStorage "Vest/Vest_SovietHarness_AR.et/GrenadePouch/Pouch_Soviet_45rnd_RPK74.et"
      PrefabsToSpawn {
-      "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et"
+      "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et"
      }
+    }
+    ItemsInitConfigurationItem "{6A70CC05D9B6BCAC}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR.et/MagPouch_6Sh46/Pouch_Soviet_45rnd_RPK74.et"
+     PrefabsToSpawn {
+      "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A70CC0AF75D2AB6}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR.et/Suspenders/Vest_SovietHarness_Suspenders.et"
     }
    }
   }

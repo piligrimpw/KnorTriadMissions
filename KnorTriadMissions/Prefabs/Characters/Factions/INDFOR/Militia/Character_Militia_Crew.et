@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{86FD9CD0A2E64B07}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_CrewKO.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#IMF-Role_Crew"
@@ -10,6 +21,12 @@ SCR_ChimeraCharacter : "{86FD9CD0A2E64B07}Prefabs/Characters/Factions/INDFOR/Mil
    Slots {
     LoadoutSlotInfo Back {
      Enabled 0
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{2E69E1B4318D0FC5}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_belt_crew1_militia.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8266820FFDE17477}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01.et"
     }
    }
   }

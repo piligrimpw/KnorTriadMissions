@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#IMF-Role_Zamcomroty"
@@ -22,20 +33,39 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
      Prefab "{A8B1DDE330DCCFA0}Clothing/Rocker/Shoes 1/Rocker Shoes 1.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{4690DAECCF413CCA}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_FIA.et"
+     Prefab "{4690DAECCF413CCA}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_IMF.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6A6685AAFCF76FED}" {
-     TargetStorage "Jacket/Jacket_M88Afghanka.et"
+     TargetStorage "Pants/indi soldier 2 pants.et"
      PrefabsToSpawn {
-      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "" "" "" "{1F770FB6FB76DB1E}Prefabs/Items/Equipment/Radios/Radio_BaofengFIA.et"
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{B11727710EC12776}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_30rnd_Last_5Tracer.et" "{811F098714578F82}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_30rnd_Tracer.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{1F770FB6FB76DB1E}Prefabs/Items/Equipment/Radios/Radio_Baofeng_IMF.et"
      }
     }
     ItemsInitConfigurationItem "{6A6685AAFCD76461}" {
-     TargetStorage "Pants/indi soldier 2 pants.et"
+     TargetStorage "Jacket/Jacket_M88Afghanka.et"
+    }
+    ItemsInitConfigurationItem "{6A6685AAFC0E8D91}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/GrenadePouch/Vest_SovietHarness_GrenadePouch.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A6685ADEEDC233F}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
+    }
+    ItemsInitConfigurationItem "{6A70CC0AC882F8FC}" {
+     TargetStorage "Vest/Vest_SovietHarness_rifleman.et/Suspenders/Vest_SovietHarness_Suspenders.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+     }
     }
    }
   }

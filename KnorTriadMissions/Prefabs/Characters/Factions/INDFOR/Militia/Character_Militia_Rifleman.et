@@ -13,10 +13,10 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{9F3A7D7943C278D1}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_base.et"
+     Prefab "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{C1FCB4859C59111E}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6_Dirty.et"
+     Prefab "{EF597003A3F61D63}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02_nobelt.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{6925E6C63EBCF623}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
@@ -25,29 +25,40 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
      Prefab "{F3445F545DBF5062}Prefabs/Characters/Uniforms/Shoes_Formal.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+     Prefab "{82218281F55AE821}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_belt_v1_militia.et"
     }
     LoadoutSlotInfo Face {
-     Prefab "{86834C75935ABE88}Prefabs/Characters/HeadGear/Balaclavas/cotton_balaclava_low_standalone.et"
+     Prefab ""
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6A6685AAFCF76FED}" {
-     TargetStorage "Jacket/Shirt_CottonShirt_01_V6_Dirty.et"
+     TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
      PrefabsToSpawn {
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
      }
     }
     ItemsInitConfigurationItem "{6A6685AAFCD76461}" {
-     TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
+     TargetStorage "Jacket/Jacket_US_BDU_rolledup_02_nobelt.et"
+     PrefabsToSpawn + {
+      "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
+     }
     }
     ItemsInitConfigurationItem "{6A6685AAFC0E8D91}" {
-     TargetStorage "Vest/Vest_Lifchik.et"
+     TargetStorage "Back/Backpack_Kolobok.et"
     }
     ItemsInitConfigurationItem "{6A6685ADEEDC233F}" {
-     PrefabsToSpawn + {
-      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     TargetStorage "Vest/Vest_SovietHarness_belt_v1_militia.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6A70CC0AF994CAA7}" {
+     TargetStorage "Jacket/Jacket_US_BDU_rolledup_02_nobelt.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
      }
     }
    }

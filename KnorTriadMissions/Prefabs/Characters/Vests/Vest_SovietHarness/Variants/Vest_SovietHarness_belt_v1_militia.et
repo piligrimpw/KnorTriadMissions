@@ -1,0 +1,12 @@
+GenericEntity : "{A51B5534915AE3B6}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_belt_empty.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo MagPouch_6Sh46 {
+     Prefab "{8C9F39278B899AE6}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et"
+    }
+   }
+  }
+ }
+}

@@ -9,17 +9,30 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{7679BFF93DC7ACE1}Clothing/TK Storm Trooper/Shirt/TK shirt.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E0B8FAA991BD0C54}Prefabs/Characters/Uniforms/Pants_M79KLMK.et"
+    }
     LoadoutSlotInfo Back {
-     Prefab "{4690DAECCF413CCA}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_FIA.et"
+     Prefab "{4690DAECCF413CCA}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_IMF.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6A6685AAFCF76FED}" {
-     PrefabsToSpawn + {
-      "{1F770FB6FB76DB1E}Prefabs/Items/Equipment/Radios/Radio_BaofengFIA.et"
+     TargetStorage "Pants/Pants_M79KLMK.et"
+     PrefabsToSpawn {
+      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{FC79F6BDEB7F1BC2}Prefabs/Weapons/Flares/Flare_RSP30_green.et" "{36218D5F0C7095E6}Prefabs/Weapons/Flares/Flare_RSP30_red.et" "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et" "{1F770FB6FB76DB1E}Prefabs/Items/Equipment/Radios/Radio_Baofeng_IMF.et"
      }
+    }
+    ItemsInitConfigurationItem "{6A6685AAFCD76461}" {
+     TargetStorage "Jacket/TK shirt.et"
+    }
+    ItemsInitConfigurationItem "{6A6685ADEEDC233F}" {
+     TargetStorage "Vest/Vest_Type56.et"
     }
    }
   }

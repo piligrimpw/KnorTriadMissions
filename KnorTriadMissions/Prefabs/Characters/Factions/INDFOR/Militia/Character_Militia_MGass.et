@@ -1,6 +1,20 @@
 SCR_ChimeraCharacter : "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{61A705D76908160C}Prefabs/Items/Equipment/Watches/Watch_Orlik38/Watch_Orlik38.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#IMF-Role_MGass"
@@ -16,22 +30,40 @@ SCR_ChimeraCharacter : "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Mil
      Prefab "{9911F55EC05D1A64}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_02.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{7F0CD5E5DF17FF15}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V4_Dirty.et"
+     Prefab "{915ECC25425001D9}Clothing/Civ Wood Worker/Jacket 3/Wood Worker Jacket 3.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{537FD11C135757AC}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey_Dirty.et"
     }
+    LoadoutSlotInfo Vest {
+     Prefab "{82218281F55AE821}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_belt_v1_militia.et"
+    }
     LoadoutSlotInfo Face {
-     Prefab "{CB8F70B71FB0ED27}Prefabs/Characters/HeadGear/Balaclavas/cotton_balaclava_standalone.et"
+     Prefab ""
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A6685AAFCF76FED}" {
+     TargetStorage "Jacket/Wood Worker Jacket 3.et"
+     PrefabsToSpawn + {
+      "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A6685AAFCD76461}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkGrey_Dirty.et"
+     PrefabsToSpawn {
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+    }
     ItemsInitConfigurationItem "{6A6685ADEEDC233F}" {
      PrefabsToSpawn + {
       "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }
+    }
+    ItemsInitConfigurationItem "{6A70CC0AF994CAA7}" {
+     TargetStorage "Jacket/Wood Worker Jacket 3.et"
     }
    }
   }

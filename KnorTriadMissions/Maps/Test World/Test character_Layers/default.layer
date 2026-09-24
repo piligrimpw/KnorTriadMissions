@@ -2,23 +2,28 @@ SCR_ChimeraCharacter : "{00909D859A75254B}Prefabs/Characters/Factions/INDFOR/Mil
  coords 1608.991 38.218 2933.114
  angles 0 169.969 0
 }
-SCR_ChimeraCharacter : "{14F9E188015D3BE1}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Komroty.et" {
- coords 1607.879 38.205 2932.773
- angles 0 170.623 0
+SCR_ChimeraCharacter : "{07841683C73B1F20}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv2.et" {
+ coords 1610.937 38.262 2935.191
+ angles 1.166 170.918 1.626
 }
-SCR_ChimeraCharacter : "{16ECFC348955A8D4}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_CrewKO.et" {
+SCR_ChimeraCharacter : "{14F9E188015D3BE1}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Komroty.et" {
  components {
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{AFD8BBF0AE1A672B}Prefabs/Weapons/Rifles/AK74/Rifle_AKS74.et"
-  }
-  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo Back {
-     Prefab "{342FF5554013488A}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_CDF.et"
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
     }
    }
   }
  }
+ coords 1607.879 38.205 2932.773
+ angles 0 170.623 0
+}
+SCR_ChimeraCharacter : "{16ECFC348955A8D4}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_CrewKO.et" {
  coords 1600.782 38.074 2930.875
  angles 0 174.213 0
 }
@@ -33,7 +38,7 @@ SCR_ChimeraCharacter : "{235AEC43AEC6AFA0}Prefabs/Characters/Factions/INDFOR/Mil
 SCR_ChimeraCharacter : "{2809FBA68B40215D}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrew.et" {
  coords 1603.568 38.118 2931.712
 }
-SCR_ChimeraCharacter : "{2AD97345DD9316E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKO.et" {
+SCR_ChimeraCharacter : "{2AD97345DD9316E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv1.et" {
  coords 1611.231 38.289 2933.522
  angles 0 154.618 0
 }
@@ -53,6 +58,10 @@ SCR_ChimeraCharacter : "{30C97E6A432435F8}Prefabs/Characters/Factions/BLUFOR/CDF
  }
  coords 1595.809 38.027 2930.042
  angles 0 165.359 0
+}
+SCR_ChimeraCharacter : "{3457601511E0EB38}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv2.et" {
+ coords 1609.761 38.231 2935.011
+ angles 1.018 171.512 0.753
 }
 SCR_ChimeraCharacter : "{3599F74FE00D3286}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanRPK.et" {
  coords 1596.785 38.043 2930.31
@@ -93,16 +102,78 @@ SCR_ChimeraCharacter : "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF
  coords 1588.074 38 2928.21
  angles 0 161.001 0
 }
-SCR_ChimeraCharacter : "{682DCBA09335C23D}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KO.et" {
+SCR_ChimeraCharacter : "{682DCBA09335C23D}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv1.et" {
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#IMF-Role_KO"
     Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{33EA9417953039B4}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74Uu.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_olive.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{0EC735ADA5A5B305}Prefabs/Characters/Uniforms/Jacket_M88Spets_Tucked.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4690DAECCF413CCA}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_IMF.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{CB8F70B71FB0ED27}Prefabs/Characters/HeadGear/Balaclavas/cotton_balaclava_standalone.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A6685AAFCF76FED}" {
+     TargetStorage "Pants/Pants_US_M65.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6A6685AAFCD76461}" {
+     TargetStorage "Jacket/Jacket_M88Spets_Tucked.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6A6685AAFC0E8D91}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6A6685ADEEDC233F}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
   }
  }
  coords 1610.124 38.254 2933.411
@@ -133,15 +204,9 @@ SCR_ChimeraCharacter : "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Mil
  coords 1621.741 38.617 2936.57
  angles 0 147.238 0
 }
-$grp SCR_ChimeraCharacter : "{86FD9CD0A2E64B07}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_CrewKO.et" {
- {
-  coords 1622.793 38.65 2936.963
-  angles 0 143.045 0
- }
- {
-  coords 1623.697 38.678 2937.318
-  angles 0 163.297 0
- }
+SCR_ChimeraCharacter : "{86FD9CD0A2E64B07}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_CrewKO.et" {
+ coords 1622.793 38.65 2936.963
+ angles 0 143.045 0
 }
 SCR_ChimeraCharacter : "{8DBCA0BE2F71176A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ZamKomroty.et" {
  coords 1590.797 38 2929.184
@@ -150,6 +215,10 @@ SCR_ChimeraCharacter : "{8DBCA0BE2F71176A}Prefabs/Characters/Factions/BLUFOR/CDF
 SCR_ChimeraCharacter : "{955E989C5F6D19C3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Komroty.et" {
  coords 1589.975 38 2928.86
  angles 0 163.266 0
+}
+SCR_ChimeraCharacter : "{973C4C1BCCAEFB54}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Crew.et" {
+ coords 1623.729 38.679 2937.128
+ angles 0 170.939 0
 }
 SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_base.et" {
  coords 1606.939 38.186 2932.435
@@ -189,17 +258,6 @@ SCR_ChimeraCharacter : "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF
  angles 0 162.432 0
 }
 SCR_ChimeraCharacter : "{E539F9FA00976C59}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Crew.et" {
- components {
-  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#CDF-Role_Crewman"
-    Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
-   }
-  }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{AFD8BBF0AE1A672B}Prefabs/Weapons/Rifles/AK74/Rifle_AKS74.et"
-  }
- }
  coords 1601.684 38.085 2930.999
  angles 0 168.277 0
 }

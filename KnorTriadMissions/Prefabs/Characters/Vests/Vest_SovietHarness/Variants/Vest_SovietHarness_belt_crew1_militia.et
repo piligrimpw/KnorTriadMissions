@@ -1,0 +1,28 @@
+GenericEntity : "{A51B5534915AE3B6}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_belt_empty.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Materials {
+    MaterialAssignClass "{6A70C3A6834C903A}" {
+     SourceMaterial "Vest_SovietHarness"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo MagPouch_6Sh46 {
+     Offset 0.0932 -0.0116 -0.096
+     Angles 12.1592 154.2755 0.295
+     Prefab "{8C9F39278B899AE6}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+   }
+   ItemMaterialsOverride {
+    "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+   }
+  }
+ }
+}
