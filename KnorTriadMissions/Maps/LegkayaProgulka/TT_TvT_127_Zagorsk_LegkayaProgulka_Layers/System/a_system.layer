@@ -1,0 +1,58 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 2600.892 173.11 7213.269
+ "Map Geometry Data" "{26CF7CBFBAAE160A}Map/Zagorsk.topo"
+ "Satellite background image" "{79C0B81FD6A0E63C}Map/RESULT.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 2598.765 173.136 7213.344
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2599.681 173.118 7213.385
+}
+LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/LL_GameMode_Lobby.et" {
+ components {
+  SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
+   m_sInitialStartingWeatherId "Sunny"
+   m_iSetWeatherConstant 1
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
+   m_iStartingHours 10
+   m_iStartingMinutes 15
+   m_bDateOverride 1
+   m_iDay 12
+   m_iMonth 6
+   m_iYear 2011
+  }
+ }
+ coords 2599.253 172.939 7210.022
+ m_iFreezeTime 300000
+ m_bRemoveRedundantUnits 1
+ m_iMinShadowQuality 1
+ m_iMinDistantShadows 1
+ m_iMinGrassLod 1
+ m_iMinContactShadows 0
+}
