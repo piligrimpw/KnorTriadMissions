@@ -55,4 +55,16 @@ LL_GameModeCoop LL_GameMode_Lobby1 : "{E270881FCEBB1B99}Prefabs/MP/Modes/Editor/
  m_iMinDistantShadows 1
  m_iMinGrassLod 1
  m_iMinContactShadows 0
+ {
+  SCR_FactionManager "6A773B8D2A9CF80D" {
+   ID "699330E3CFAE0D11"
+   Factions {
+    SCR_Faction "{68C84BE822F77E12}" {
+     UIInfo SCR_FactionUIInfo "{689B1721666136A5}" {
+      Icon "{C051E7DF76161C84}Images/CDF Flag Icon.edds"
+     }
+    }
+   }
+  }
+ }
 }

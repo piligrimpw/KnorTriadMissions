@@ -65,6 +65,14 @@ StringTable {
    Author "User"
    LastChanged "User"
   }
+  CustomStringTableItem "{6A6497339D14CC5B}" {
+   Id "CDF-Role_Komroty"
+   Target_en_us "Komroty"
+   Target_ru_ru "Командир роты"
+   Modified 1786201713
+   Author "Вероника"
+   LastChanged "Вероника"
+  }
   CustomStringTableItem "{6A64973DA29DA840}" {
    Id "CDF-Role_LAT"
    Target_en_us "LAT"
@@ -334,14 +342,6 @@ StringTable {
    Target_en_us "Flag IMF"
    Target_ru_ru "Флаг ополчения"
    Modified 1785237987
-   Author "User"
-   LastChanged "User"
-  }
-  CustomStringTableItem "{6A6497339D14CC5B}" {
-   Id "СDF-Role_Komroty"
-   Target_en_us "Komroty"
-   Target_ru_ru "Командир роты"
-   Modified 1784981073
    Author "User"
    LastChanged "User"
   }

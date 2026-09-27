@@ -1,56 +1,173 @@
 $grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
  UAZ469_PKM1 {
-  coords 2622.719 213.088 3673.911
-  angles 3.575 -1.642 -0.102
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "CDF_032"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "CDF"
+   }
+  }
+  coords 3440.232 207.711 3839.931
+  angles 0.894 -29.952 1.551
  }
  UAZ469_PKM2 {
-  coords 2621.881 212.455 3652.426
-  angles 1.788 0.056 1.791
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "CDF_031"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "CDF"
+   }
+  }
+  coords 3449.631 207.417 3820.594
+  angles 0.845 -28.174 1.578
  }
 }
 $grp Vehicle : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et" {
  UAZ469_uncovered1 {
-  coords 2622.493 212.856 3667.443
-  angles 3.573 0.112 1.793
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "CDF_032"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "CDF"
+   }
+  }
+  coords 3443.085 207.654 3834.121
+  angles 0.846 -28.201 1.577
  }
  UAZ469_uncovered2 {
-  coords 2621.609 212.374 3646.589
-  angles 1.788 0.056 1.791
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "CDF_031"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "CDF"
+   }
+  }
+  coords 3452.146 207.188 3815.323
+  angles 3.263 -28.097 2.311
  }
 }
 Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "CDF_000"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "CDF"
+  }
+ }
  coords 415.494 168.182 3794.825
  angles 1.058 -53.792 -1.444
 }
 Tank T72B_base1 : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "CDF_002"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "CDF"
+  }
+ }
  coords 413.656 167.315 3662.383
  angles 0.933 49.965 3.887
 }
 $grp Tank : "{79B6D7AE49F68475}Prefabs/Vehicles/Tracked/BMP1/BMP21_konv_noPTRK.et" {
  BMP21_konv_noPTRK1 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "CDF_012"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "CDF"
+   }
+  }
   coords 372.064 170.309 3785.427
   angles -1.966 33.313 2.988
  }
  BMP21_konv_noPTRK2 {
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "CDF_011"
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "CDF"
+   }
+  }
   coords 457.871 167.523 3780.739
   angles 1.115 51.48 1.4
  }
 }
 Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ components {
+  LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+   m_sGroupName "CDF_013"
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "CDF"
+  }
+ }
  coords 471.212 165.687 3664.39
  angles 0 4.667 0
 }
 $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
  Ural4320_transport_covered1 {
-  coords 3429.135 209.055 3870.155
-  angles 1.561 -25.842 3.218
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "CDF_021"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "CDF"
+   }
+  }
+  coords 2620.998 217.374 3840.994
+  angles 0.114 -3.655 1.786
  }
  Ural4320_transport_covered2 {
-  coords 3460.961 206.697 3811.133
-  angles 3.995 -24.506 0.144
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "CDF_022"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "CDF"
+   }
+  }
+  coords 2622.669 216.865 3815.347
+  angles 3.573 -2.635 -0.164
  }
  Ural4320_transport_covered3 {
-  coords 3488.217 204.781 3741.33
-  angles 4.868 -24.71 -2.236
+  components {
+   LL_VehicleSquadLinkComponent "{69A2BAB93BE1FBF2}" {
+    m_sGroupName "CDF_023"
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+    "faction affiliation" "CDF"
+   }
+  }
+  coords 2624.55 215.92 3790.439
+  angles 0.056 -1.775 1.789
  }
 }
