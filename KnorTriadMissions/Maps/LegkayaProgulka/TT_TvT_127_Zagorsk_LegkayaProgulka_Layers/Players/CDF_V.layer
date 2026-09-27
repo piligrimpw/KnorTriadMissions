@@ -1,0 +1,56 @@
+$grp Vehicle : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ UAZ469_PKM1 {
+  coords 2622.719 213.088 3673.911
+  angles 3.575 -1.642 -0.102
+ }
+ UAZ469_PKM2 {
+  coords 2621.881 212.455 3652.426
+  angles 1.788 0.056 1.791
+ }
+}
+$grp Vehicle : "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et" {
+ UAZ469_uncovered1 {
+  coords 2622.493 212.856 3667.443
+  angles 3.573 0.112 1.793
+ }
+ UAZ469_uncovered2 {
+  coords 2621.609 212.374 3646.589
+  angles 1.788 0.056 1.791
+ }
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 415.494 168.182 3794.825
+ angles 1.058 -53.792 -1.444
+}
+Tank T72B_base1 : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
+ coords 413.656 167.315 3662.383
+ angles 0.933 49.965 3.887
+}
+$grp Tank : "{79B6D7AE49F68475}Prefabs/Vehicles/Tracked/BMP1/BMP21_konv_noPTRK.et" {
+ BMP21_konv_noPTRK1 {
+  coords 372.064 170.309 3785.427
+  angles -1.966 33.313 2.988
+ }
+ BMP21_konv_noPTRK2 {
+  coords 457.871 167.523 3780.739
+  angles 1.115 51.48 1.4
+ }
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 471.212 165.687 3664.39
+ angles 0 4.667 0
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  coords 3429.135 209.055 3870.155
+  angles 1.561 -25.842 3.218
+ }
+ Ural4320_transport_covered2 {
+  coords 3460.961 206.697 3811.133
+  angles 3.995 -24.506 0.144
+ }
+ Ural4320_transport_covered3 {
+  coords 3488.217 204.781 3741.33
+  angles 4.868 -24.71 -2.236
+ }
+}

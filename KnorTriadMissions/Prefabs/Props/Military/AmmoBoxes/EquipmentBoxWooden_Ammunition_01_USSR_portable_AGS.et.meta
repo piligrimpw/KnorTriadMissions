@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E1D3F4727988FC10}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Ammunition_01_USSR_portable_AGS.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

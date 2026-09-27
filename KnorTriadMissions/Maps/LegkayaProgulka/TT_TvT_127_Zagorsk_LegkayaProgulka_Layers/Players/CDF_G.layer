@@ -1,0 +1,186 @@
+SCR_AIGroup : "{224360583F4EEC4A}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Officer.et" {
+ coords 420.368 167.988 3789.409
+ angles 0 -50.217 0
+}
+SCR_AIGroup : "{269BDC46F5398EAE}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Crew.et" {
+ components {
+  LL_GroupCallsign "{6A7678E74D096ADD}" {
+   m_iCompany 0
+   m_iPlatoon 0
+   m_iSquad 2
+  }
+ }
+ coords 423.358 166.946 3660.254
+ angles 2.415 -42.437 2.639
+ m_aUnitPrefabSlots +{
+  "{2809FBA68B40215D}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrew.et"
+ }
+ m_bPlayable 1
+}
+$grp SCR_AIGroup : "{4D4AF13F5C38BA4F}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Riflesquad.et" {
+ {
+  components {
+   LL_GroupCallsign "{6A7678E74D096ADD}" {
+    m_iCompany 0
+    m_iPlatoon 2
+    m_iSquad 1
+   }
+  }
+  coords 3435.893 208.603 3869.074
+  angles 2.4 -116.583 -3.198
+  m_aUnitPrefabSlots {
+   "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_KO.et"
+   "{FAE1B46F165890A7}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ZKO.et"
+   "{B4AEF666A0CB4362}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MG.et"
+   "{30C97E6A432435F8}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MGass.et"
+   "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et"
+   "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et"
+   "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et"
+  }
+  m_bPlayable 1
+ }
+ {
+  components {
+   LL_GroupCallsign "{6A7678E74D096ADD}" {
+    m_iCompany 0
+    m_iPlatoon 2
+    m_iSquad 2
+   }
+  }
+  coords 3468.324 206.504 3810.438
+  angles 0.803 -116.516 -2.4
+  m_aUnitPrefabSlots {
+   "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_KO.et"
+   "{FAE1B46F165890A7}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ZKO.et"
+   "{B4AEF666A0CB4362}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MG.et"
+   "{30C97E6A432435F8}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MGass.et"
+   "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et"
+   "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et"
+   "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et"
+  }
+  m_bPlayable 1
+ }
+ {
+  components {
+   LL_GroupCallsign "{6A7678E74D096ADD}" {
+    m_iCompany 0
+    m_iPlatoon 2
+    m_iSquad 3
+   }
+  }
+  coords 3481.98 204.743 3740.252
+  angles 0.542 66.069 5.618
+  m_aUnitPrefabSlots {
+   "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_KO.et"
+   "{FAE1B46F165890A7}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ZKO.et"
+   "{B4AEF666A0CB4362}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MG.et"
+   "{30C97E6A432435F8}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MGass.et"
+   "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et"
+   "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et"
+   "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et"
+  }
+  m_bPlayable 1
+ }
+ {
+  components {
+   LL_GroupCallsign "{6A7678E74D096ADD}" {
+    m_iCompany 0
+    m_iPlatoon 3
+    m_iSquad 1
+   }
+  }
+  coords 2618.911 212.59 3652.785
+  angles -1.876 92.831 1.699
+  m_aUnitPrefabSlots {
+   "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_KO.et"
+   "{FAE1B46F165890A7}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ZKO.et"
+   "{B4AEF666A0CB4362}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MG.et"
+   "{30C97E6A432435F8}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MGass.et"
+   "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et"
+   "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et"
+   "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et"
+  }
+  m_bPlayable 1
+ }
+ {
+  components {
+   LL_GroupCallsign "{6A7678E74D096ADD}" {
+    m_iCompany 0
+    m_iPlatoon 3
+    m_iSquad 2
+   }
+  }
+  coords 2619.493 213.132 3672.728
+  angles -1.789 89.967 1.79
+  m_aUnitPrefabSlots {
+   "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_KO.et"
+   "{FAE1B46F165890A7}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ZKO.et"
+   "{B4AEF666A0CB4362}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MG.et"
+   "{30C97E6A432435F8}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MGass.et"
+   "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et"
+   "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et"
+   "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et"
+  }
+  m_bPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{C954EA3CB2EE3BA9}Prefabs/Groups/BLUFOR/CDF/Group_CDF_MotorRifleSquad.et" {
+ {
+  components {
+   LL_GroupCallsign "{6A7678E74D096ADD}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 3
+   }
+  }
+  coords 478.49 165.328 3659.35
+  angles 1.789 -87.812 0.068
+  m_bPlayable 1
+ }
+ {
+  components {
+   LL_GroupCallsign "{6A7678E74D096ADD}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 1
+   }
+  }
+  coords 454.308 167.763 3787.731
+  angles -2.504 126.673 0.366
+  m_aUnitPrefabSlots {
+   "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_KO.et"
+   "{FAE1B46F165890A7}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ZKO.et"
+   "{3599F74FE00D3286}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanRPK.et"
+   "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et"
+   "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et"
+   "{7C4124E9CCC790CA}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Rifleman.et"
+   "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et"
+   "{B325E4A16D9D1655}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrewKO.et"
+   "{2809FBA68B40215D}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrew.et"
+  }
+  m_bPlayable 1
+ }
+ {
+  components {
+   LL_GroupCallsign "{6A7678E74D096ADD}" {
+    m_iCompany 0
+    m_iPlatoon 1
+    m_iSquad 2
+   }
+  }
+  coords 370.579 170.525 3794.951
+  angles -3.897 129.455 -0.891
+  m_aUnitPrefabSlots {
+   "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_KO.et"
+   "{FAE1B46F165890A7}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ZKO.et"
+   "{3599F74FE00D3286}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanRPK.et"
+   "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et"
+   "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et"
+   "{7C4124E9CCC790CA}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Rifleman.et"
+   "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et"
+   "{B325E4A16D9D1655}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrewKO.et"
+   "{2809FBA68B40215D}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_HeavyCrew.et"
+  }
+  m_bPlayable 1
+ }
+}

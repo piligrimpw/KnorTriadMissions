@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{5AEB39143B0E4517}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et"
+ Name "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

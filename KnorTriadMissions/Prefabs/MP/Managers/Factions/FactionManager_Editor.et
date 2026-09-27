@@ -1,0 +1,9 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{68C84BE822F77E12}" : "{B15B39077B0E1055}Configs/Factions/CDF.conf" {
+  }
+  SCR_Faction "{6A7694D6AC79C77B}" : "{EDC324A0428E3825}Configs/Factions/IMF.conf" {
+  }
+ }
+}

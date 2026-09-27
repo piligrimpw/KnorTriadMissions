@@ -1,0 +1,255 @@
+$grp PolylineShapeEntity {
+ TriggerFactory {
+  coords 2982.972 194.826 7663.419
+  Points {
+   ShapePoint "{6A7678EC18036EE8}" {
+    Position 84.115 0 -35.948
+   }
+   ShapePoint "{6A7678EFE4CDB603}" {
+    Position -45.516 0 -31.586
+   }
+   ShapePoint "{6A7678EFE1C26F92}" {
+    Position -13.965 0 271.681
+   }
+   ShapePoint "{6A7678EFEF237254}" {
+    Position -111.837 0 277.332
+   }
+   ShapePoint "{6A7678EFED25163C}" {
+    Position -103.226 0 356.848
+   }
+   ShapePoint "{6A7678EFEB94772A}" {
+    Position -22.314 0 347.43
+   }
+   ShapePoint "{6A7678EFEA143153}" {
+    Position -1.161 0 353.988
+   }
+   ShapePoint "{6A7678EFF7B93F8C}" {
+    Position 175.75 0 335.964
+   }
+   ShapePoint "{6A7678EFF729F62E}" {
+    Position 193.241 0 338.186
+   }
+   ShapePoint "{6A7678EFF57A55A8}" {
+    Position 284.881 0 337.113
+   }
+   ShapePoint "{6A7678EFF4EB78E6}" {
+    Position 291.055 0 333.537
+   }
+   ShapePoint "{6A7678EFF3919D2B}" {
+    Position 300.239 0 325.427
+   }
+   ShapePoint "{6A7678EFF3E318C7}" {
+    Position 303.015 0 312.793
+   }
+   ShapePoint "{6A7678EFF2037FC7}" {
+    Position 299.584 0 238.195
+   }
+   ShapePoint "{6A7678EFF00A0F04}" {
+    Position 287.797 0 167.833
+   }
+   ShapePoint "{6A7678EFFFF918BB}" {
+    Position 266.311 0 165.402
+   }
+   ShapePoint "{6A7678EFFD98DAF0}" {
+    Position 164.122 0 91.805
+   }
+   ShapePoint "{6A7678EFFC1F56F7}" {
+    Position 153.985 0 -19.546
+   }
+   ShapePoint "{6A7678EFFB29B083}" {
+    Position 143.779 0 -60.081
+   }
+   ShapePoint "{6A7678EFFA7A3F7E}" {
+    Position 85.044 0 -57.385
+   }
+   ShapePoint "{6A7678EFF9F4AF54}" {
+    Position 83.961 0 -35.789
+   }
+   ShapePoint "{6A7678EFF84714E7}" {
+    Position -47.589 0 -31.716
+   }
+  }
+  IsClosed 1
+ }
+ TriggerHomes {
+  coords 2933.713 223.492 8389.004
+  Points {
+   ShapePoint "{6A7678EC9C6A12D0}" {
+    Position -55.244 0 -127.591
+   }
+   ShapePoint "{6A7678EC9B49EDC4}" {
+    Position -79.615 0 -69.348
+   }
+   ShapePoint "{6A7678EC995F52A9}" {
+    Position -89.827 0 -32.321
+   }
+   ShapePoint "{6A7678EC67585F55}" {
+    Position -82.277 0 47.182
+   }
+   ShapePoint "{6A7678EC26390F7B}" {
+    Position -52.45 0 45.171
+   }
+   ShapePoint "{6A7678EC23679D35}" {
+    Position -39.745 0 135.576
+   }
+   ShapePoint "{6A7678EC215CAF5B}" {
+    Position 75.258 0 100.521
+   }
+   ShapePoint "{6A7678EC2E8041E0}" {
+    Position 63.651 0 22.83
+   }
+   ShapePoint "{6A7678EC2E282753}" {
+    Position 74.055 0 -12.902
+   }
+   ShapePoint "{6A7678EC2CB71AAA}" {
+    Position 106.194 0 -63.088
+   }
+  }
+  IsClosed 1
+ }
+}
+$grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
+ CaptureFactory {
+  components {
+   LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+    m_sZoneEntityName "TriggerFactory"
+    m_sZoneDisplayName "Заводская территория"
+    m_sAttackerFaction "CDF"
+    m_sDefenderFaction "IMF"
+    m_aFlagNames {
+     "Flag1"
+     "Flag2"
+     "Flag3"
+     "Flag4"
+     "Flag5"
+    }
+    m_aConditions {
+     LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+      m_sFaction "CDF"
+      m_sVersusFaction "IMF"
+     }
+     LL_TriggerFactionCondition "{69BD22C261674367}" {
+      m_sFaction "CDF"
+      m_iVersusNumber 4
+     }
+    }
+    m_fHoldSeconds 180
+   }
+  }
+  coords 3075.67 214.745 7839.657
+ }
+ CaptureHomes {
+  components {
+   LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+    m_sZoneEntityName "TriggerHomes"
+    m_sZoneDisplayName "Жилые высотки"
+    m_sAttackerFaction "CDF"
+    m_sDefenderFaction "IMF"
+    m_aFlagNames {
+     "Flag6"
+     "Flag7"
+     "Flag8"
+     "Flag9"
+     "Flag10"
+    }
+    m_aConditions {
+     LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+      m_sFaction "CDF"
+      m_sVersusFaction "IMF"
+     }
+     LL_TriggerFactionCondition "{69BD22C261674367}" {
+      m_sFaction "CDF"
+      m_iVersusNumber 4
+     }
+    }
+    m_fHoldSeconds 180
+   }
+  }
+  coords 2953.158 243.284 8451.466
+ }
+}
+$grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
+ LossCDF {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sFactionKey "CDF"
+    m_iThreshold 7
+   }
+  }
+  coords 2620.043 173.183 7226.972
+ }
+ LossIMF {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sFactionKey "IMF"
+    m_iThreshold 5
+   }
+  }
+  coords 2624.081 172.608 7217.728
+ }
+}
+GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
+ components {
+  LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
+   m_bShowInBriefing 0
+   m_iSeconds 4800
+  }
+ }
+ coords 2625.372 171.615 7200.216
+}
+$grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et" {
+ SupremacyCDF {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "ЧСО получили численное превосходство над повстанцами."
+    m_sFactionKey "CDF"
+    m_sVersusFaction "IMF"
+   }
+  }
+  coords 2638.931 169.906 7171.813
+ }
+ SupremacyIMF {
+  components {
+   LL_TriggerSupremacy "{6A1CE475F3AA0C1C}" {
+    m_sMessage "Повстанцы получили численное превосходство над ЧСО."
+    m_sFactionKey "IMF"
+    m_sVersusFaction "CDF"
+   }
+  }
+  coords 2644.459 169.893 7159.562
+ }
+}
+$grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
+ Flag1 {
+  coords 3159.707 223.015 7991.765
+ }
+ Flag2 {
+  coords 2994.698 223.843 8001.766
+ }
+ Flag3 {
+  coords 3130.903 217.857 7816.303
+ }
+ Flag4 {
+  coords 3013.928 203.417 7683.68
+  angles 0 6.049 31.894
+ }
+ Flag5 {
+  coords 3178.68 256.068 7887.885
+  angles 11.312 59.167 0
+ }
+ Flag6 {
+  coords 2865.666 235.801 8313.964
+ }
+ Flag7 {
+  coords 2931.947 238.041 8299.941
+ }
+ Flag8 {
+  coords 2957.352 240.677 8353.714
+ }
+ Flag9 {
+  coords 2953.004 243.486 8490.869
+ }
+ Flag10 {
+  coords 2890.048 236.447 8454.753
+ }
+}

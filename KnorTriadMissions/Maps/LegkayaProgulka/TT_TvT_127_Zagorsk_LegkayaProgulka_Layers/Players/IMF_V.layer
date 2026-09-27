@@ -1,0 +1,28 @@
+$grp Turret : "{36C1CA1E20598000}SPG-9/SPG-9.et" {
+ {
+  coords 1592.619 184.356 7191.897
+  angles 1.644 -113.281 -0.707
+ }
+ {
+  coords 1592.063 184.405 7193.673
+  angles 1.607 -116.129 -0.788
+ }
+}
+$grp Turret : "{61556EC6CC70DDFA}Prefabs/Weapons/Tripods/6G10/Deployable_Tripod_6G10_AGS17_PAG17.et" {
+ {
+  coords 3095.993 201.799 7819.556
+  angles 2.122 -78.044 -1.38
+ }
+ {
+  coords 3096.276 201.823 7820.59
+  angles 2.128 -77.794 -1.37
+ }
+}
+GenericEntity : "{B8A0EA2D60C121B8}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Ammunition_01_USSR_portable_SPG.et" {
+ coords 1593.939 184.355 7193.553
+ angles 0 68.408 0
+}
+GenericEntity : "{E1D3F4727988FC10}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Ammunition_01_USSR_portable_AGS.et" {
+ coords 3097.752 201.795 7819.574
+ angles -0 99.028 -0
+}

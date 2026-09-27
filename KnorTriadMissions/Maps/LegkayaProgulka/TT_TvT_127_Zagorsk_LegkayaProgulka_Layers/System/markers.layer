@@ -117,8 +117,8 @@ $grp PolylineShapeEntity : "{572E4151F14515AC}Prefabs/Map/LL_MapPolyZone.et" {
   }
   coords 3090.498 202.377 7833.547
   Points {
-   ShapePoint "{6A755DFA41E34F49}" {
-    Position -24.695 0 -206.113
+   ShapePoint "{6A7678EFA40C278F}" {
+    Position -24.334 0 -206.374
    }
    ShapePoint "{6A755DFA4816F674}" {
     Position -152.667 0 -201.618

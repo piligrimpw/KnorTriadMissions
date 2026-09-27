@@ -4,6 +4,8 @@ SCR_AIGroup : "{242BC3C6BCE96EA5}Prefabs/Groups/INDFOR/Group_FIA_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
+  LL_GroupCallsign "{6A7678E74484EA1B}" {
+  }
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "#IMF-Group_Base"

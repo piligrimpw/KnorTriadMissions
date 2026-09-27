@@ -69,63 +69,6 @@ GameProject {
        }
       }
      }
-     StringTableDefinition "{6A754E12906FD4FB}" {
-      StringTableSource "{E894223E6B5DECFC}Language/TFC_language.st"
-      Languages {
-       LanguageDefinition "{6A754E1292D5CAD2}" {
-        Code "cs_cz"
-        StringTableRuntime "{B22F6977CAFA3D52}Language/TFC_language.cs_cz.conf"
-       }
-       LanguageDefinition "{6A754E1292D5CA91}" {
-        Code "de_de"
-        StringTableRuntime "{67517344D9592C72}Language/TFC_language.de_de.conf"
-       }
-       LanguageDefinition "{6A754E1292D5C561}" {
-        Code "en_us"
-        StringTableRuntime "{39A1F90FB3AA2973}Language/TFC_language.en_us.conf"
-       }
-       LanguageDefinition "{6A754E1292D5C570}" {
-        Code "es_es"
-        StringTableRuntime "{FCEDB4865DA8426C}Language/TFC_language.es_es.conf"
-       }
-       LanguageDefinition "{6A754E1292D5C547}" {
-        Code "fr_fr"
-        StringTableRuntime "{474541B1BB2BA16E}Language/TFC_language.fr_fr.conf"
-       }
-       LanguageDefinition "{6A754E1292D5C557}" {
-        Code "it_it"
-        StringTableRuntime "{C759CE8516092297}Language/TFC_language.it_it.conf"
-       }
-       LanguageDefinition "{6A754E1292D5C524}" {
-        Code "ja_jp"
-        StringTableRuntime "{D74273172878123C}Language/TFC_language.ja_jp.conf"
-       }
-       LanguageDefinition "{6A754E1292D5C539}" {
-        Code "ko_kr"
-        StringTableRuntime "{77FC5BBBBB551103}Language/TFC_language.ko_kr.conf"
-       }
-       LanguageDefinition "{6A754E1292D5C50E}" {
-        Code "pl_pl"
-        StringTableRuntime "{2B8DFD4105BA8D7F}Language/TFC_language.pl_pl.conf"
-       }
-       LanguageDefinition "{6A754E1292D5C503}" {
-        Code "pt_br"
-        StringTableRuntime "{FEFA678D3E4447C5}Language/TFC_language.pt_br.conf"
-       }
-       LanguageDefinition "{6A754E1292D5C511}" {
-        Code "ru_ru"
-        StringTableRuntime "{ABBB7325A33D22B3}Language/TFC_language.ru_ru.conf"
-       }
-       LanguageDefinition "{6A754E1292D5C5E3}" {
-        Code "uk_ua"
-        StringTableRuntime "{21E326D3CF139CE6}Language/TFC_language.uk_ua.conf"
-       }
-       LanguageDefinition "{6A754E1292D5C5F1}" {
-        Code "zh_cn"
-        StringTableRuntime "{FB5348EEF6B34CFB}Language/TFC_language.zh_cn.conf"
-       }
-      }
-     }
     }
    }
   }
