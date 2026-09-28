@@ -1,8 +1,0 @@
-GenericEntity : "{B15E9D81210CFC1C}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_base.et" {
- ID "508AB2013EEE1E00"
- components {
-  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
-   ItemModel "{2B2DB1B26184D8AA}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01_item_02.xob"
-  }
- }
-}

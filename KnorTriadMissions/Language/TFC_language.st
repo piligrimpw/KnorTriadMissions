@@ -212,18 +212,18 @@ StringTable {
   CustomStringTableItem "{6A66858652F13310}" {
    Id "IMF-Role_KO"
    Target_en_us "KO"
-   Target_ru_ru "Командир отделения"
-   Modified 1785122953
+   Target_ru_ru "Командир группы"
+   Modified 1786303661
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A668584D4BACEBE}" {
    Id "IMF-Role_Komroty"
    Target_en_us "Komroty"
-   Target_ru_ru "Командир роты"
-   Modified 1785122020
+   Target_ru_ru "Командир отряда"
+   Modified 1786303610
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A668586BFEBD913}" {
    Id "IMF-Role_Marksman"
@@ -276,18 +276,18 @@ StringTable {
   CustomStringTableItem "{6A66858795835C90}" {
    Id "IMF-Role_Zamcomroty"
    Target_en_us "Zamcomroty"
-   Target_ru_ru "Зам командира роты"
-   Modified 1785122857
+   Target_ru_ru "Заместитель командира отряда"
+   Modified 1786303626
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A6685867E08911F}" {
    Id "IMF-Role_ZKO"
    Target_en_us "ZKO"
-   Target_ru_ru "Зам командира отделения"
-   Modified 1785123008
+   Target_ru_ru "Зам командира группы"
+   Modified 1786303642
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A68A4062B6F5CC1}" {
    Id "TFC-Group_Crew"

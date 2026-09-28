@@ -5,12 +5,12 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    "Encryption key" "RadioIMF"
    "Turned on" 1
    Transceivers {
-    RadioTransceiver "{6A631A1A5A7FA040}" {
+    RelayTransceiver "{6A78CA1C6D496533}" {
      ChannelFrequency 32000
-     "Transmitting Range" 2500
+     "Transmitting Range" 1300
      "Min tunable frequency" 32000
      "Max tunable frequency" 68000
-     "Frequency resolution" 200
+     "Frequency resolution" 100
     }
    }
   }
