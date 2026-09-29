@@ -1,14 +1,10 @@
 $grp ParticleEffectEntity {
  {
-  coords 2825.192 168.466 7044.438
+  coords 2824.267 168.466 7044.365
   EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
  }
  {
-  coords 2821.612 168.794 7044.016
-  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
- }
- {
-  coords 2822.65 168.459 7044.261
+  coords 2823.535 168.459 7044.652
   angles 0 94.823 0
   EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
  }
@@ -174,26 +170,56 @@ $grp GenericEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMi
 }
 $grp GenericEntity : "{3F0D0593590519DA}Prefabs/Props/Garbage/Tires/TirePile_01_medium.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 2827.953 169.119 7042.953
   angles 1.478 -34.368 -1.01
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 2827.579 169.093 7044.045
   angles -1.79 0 0
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 2824.757 169.058 7043.154
   angles -1.79 0 0
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 2825.131 169.084 7042.063
   angles 1.478 -34.368 -1.01
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 2822.174 169.09 7041.121
   angles 1.728 164.889 -0.467
  }
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
   coords 2821.529 169.06 7042.077
   angles 1.162 130.475 -1.362
  }
@@ -590,7 +616,7 @@ GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wa
 }
 $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
  {
-  coords 2798.796 -0 7101.859
+  coords 2798.796 0 7101.859
  }
  {
   coords 2804.235 0.169 7101.623
@@ -613,7 +639,7 @@ $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification
   angles 0 -25.517 0
  }
  {
-  coords 2817.364 -0 7105.938
+  coords 2817.364 0 7105.938
   angles 0 57.402 0
  }
 }
@@ -621,6 +647,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
  {
   components {
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
     Enabled 0
    }
   }
@@ -633,6 +662,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
     Enabled 0
    }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
+    Enabled 0
+   }
   }
   coords 2775.393 169.266 7120.265
   angles 2.409 -27.176 0.774
@@ -641,6 +673,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
  {
   components {
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
     Enabled 0
    }
   }
@@ -653,6 +688,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
     Enabled 0
    }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
+    Enabled 0
+   }
   }
   coords 2789.158 169.485 7125.689
   angles 2.312 -28.135 -3.261
@@ -661,6 +699,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
  {
   components {
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
     Enabled 0
    }
   }
@@ -673,6 +714,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
     Enabled 0
    }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
+    Enabled 0
+   }
   }
   coords 2780.687 170.586 7116.5
   angles -0.721 61.536 2.426
@@ -681,6 +725,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
  {
   components {
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
     Enabled 0
    }
   }
@@ -693,6 +740,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
     Enabled 0
    }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
+    Enabled 0
+   }
   }
   coords 2775.552 170.685 7120.256
   angles 2.409 -27.176 0.774
@@ -701,6 +751,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
  {
   components {
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
     Enabled 0
    }
   }
@@ -713,6 +766,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
     Enabled 0
    }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
+    Enabled 0
+   }
   }
   coords 2773.688 169.232 7117.677
   angles -0.866 -118.925 -1.567
@@ -721,6 +777,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
  {
   components {
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
     Enabled 0
    }
   }
@@ -733,6 +792,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
     Enabled 0
    }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
+    Enabled 0
+   }
   }
   coords 2802.454 168.664 7108.632
   angles 2.275 -50.524 -1.696
@@ -741,6 +803,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
  {
   components {
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
     Enabled 0
    }
   }
@@ -753,6 +818,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
     Enabled 0
    }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
+    Enabled 0
+   }
   }
   coords 2798.168 170.385 7112.827
   angles -1.42 137.336 0.05
@@ -761,6 +829,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
  {
   components {
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
     Enabled 0
    }
   }
@@ -773,6 +844,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
     Enabled 0
    }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
+    Enabled 0
+   }
   }
   coords 2795.958 168.707 7105.742
   angles 0 64.638 0
@@ -781,6 +855,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
  {
   components {
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
     Enabled 0
    }
   }
@@ -793,6 +870,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
     Enabled 0
    }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
+    Enabled 0
+   }
   }
   coords 2801.387 168.815 7111.695
   angles -3.794 -135.046 -1.26
@@ -803,6 +883,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
     Enabled 0
    }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
+    Enabled 0
+   }
   }
   coords 2798.979 168.747 7105.865
   angles 2.422 -28.133 0.734
@@ -811,6 +894,9 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
  {
   components {
    DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+   NwkPhysicsMovementComponent "{662B0BF1051DC797}" {
     Enabled 0
    }
   }
@@ -825,7 +911,7 @@ $grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/Bar
   angles 2.653 -42.158 -2.399
  }
  {
-  coords 2796.501 -0 7114.591
+  coords 2796.501 0 7114.591
   angles 3.573 0.112 1.793
  }
 }
