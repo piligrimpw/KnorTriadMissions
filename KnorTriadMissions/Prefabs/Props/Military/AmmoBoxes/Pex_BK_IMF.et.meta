@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{447D815965819A7A}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd_portable.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

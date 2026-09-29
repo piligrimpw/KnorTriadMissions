@@ -1,0 +1,160 @@
+GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{5043F460C7AF4BD4}Assets/Props/Military/AmmoBox/AmmoBox_545x39_2160rnd/AmmoBox_545x39_2160rnd.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   LinearDamping 0.3
+   AngularDamping 0.3
+   ResponseIndex "TinyDestructible"
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{58F8968452F049CA}" {
+     m_ModelPrefabs {
+      "{CEA3E9AEBE3C3492}Assets/Props/Debris/Wood/BeamWooden_dbr_01.xob" "{B83F6469D7CA3459}Assets/Props/Debris/Wood/PlankWooden_Big_dbr_01.xob" "{2121DDF0CA2D05C9}Assets/Props/Debris/Wood/PlankWooden_Big_dbr_02.xob" "{68E2A8F815B4FD59}Assets/Props/Debris/Wood/PlankWooden_dbr_01.xob"
+     }
+     m_eMaterialSoundType WOOD_PLANK_SMALL
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{6A7A8EDA5EBD28DE}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6A7A8EDA5EBD28CE}" {
+    Name "#AR-Ammobox_Name"
+    Description "#AR-Ammobox_Name"
+    Icon "{077BEF7A3C7930CF}UI/Textures/Editor/EditableEntities/Compositions/EditableEntity_Composition.edds"
+    m_Image "{6B95C21F8EF7DC93}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/E_AmmoBox_545x39_2160rnd.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     CONTENT_MODDED FACTION_USSR ENTITYTYPE_SYSTEM
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 5
+  }
+  SCR_GadgetComponent "{6A7A8EDA5EBD2933}" {
+   m_eAnimVariable ADRIANOV
+   m_fWeaponNoFireTime 0.9
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5C5339160C8869E2}" {
+     m_sSoundProject "{2285D7ED0CE3463E}Sounds/Props/Military/AmmoBoxes/AmmoBox_Small_Wooden/Props_AmmoBox_Small_Wooden.acp"
+    }
+    SCR_AudioSourceConfiguration "{5C533916090D28B6}" {
+     m_sSoundProject "{2285D7ED0CE3463E}Sounds/Props/Military/AmmoBoxes/AmmoBox_Small_Wooden/Props_AmmoBox_Small_Wooden.acp"
+    }
+    SCR_AudioSourceConfiguration "{6A7A8EDA5EBD2937}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_OPEN"
+    }
+    SCR_AudioSourceConfiguration "{6A7A8EDA5EBD2934}" {
+     m_sSoundProject "{A73D28179B395F19}Sounds/Props/Military/AmmoBoxes/AmmoBox_Big_Wooden/Props_AmmoBox_Big_Wooden.acp"
+     m_sSoundEventName "SOUND_CONTAINER_CLOSE"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemDisplayName SCR_InventoryUIInfo "{54F48AF1F3C103C1}" {
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A7A8EDA5EBD2939}" {
+     Weight 3.7
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{6A7A8EDA5EBD293C}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{6A7A8EDA5EBD2923}" {
+       AnimGraph "{44A1E0130301E5F5}Assets/Items/Equipment/workspaces/MedicalKit_supplies.agr"
+       AnimInstance "{A9CBB5C81F08B71B}Assets/Items/Equipment/workspaces/MedicalKit_supplies.asi"
+       BindingName "Gadget"
+      }
+     }
+     HandAdditiveRotation 0 90 90
+     HandAdditiveTranslation 0 0 0.07
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A7A8EDA5EBD2927}" {
+      CameraPreset Right
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 12
+      AspectRatio 1
+      LodModel 1
+     }
+     CharacterModifierAttributes "{6A7A8EDA5EBD292A}" {
+      StanceLimits 0.025 1
+      SpeedLimit 1.7
+      ADSSpeedLimit 1.7
+      SpeedLimitItemPrimaryAction 0
+      SpeedLimitHighready 1.7
+      CanBeEquippedInVehicle 0
+      AllowJumping 0
+     }
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 28000
+   MaxItemSize 48.8 35 16.3
+   MultiSlots {
+    MultiSlotConfiguration "{6A7A8EDA5EBD292F}" {
+     SlotTemplate InventoryStorageSlot Ammo_ak74 {
+      Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{6A7A8EDA5EBD2913}" {
+     SlotTemplate InventoryStorageSlot Ammo_AK_47 {
+      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{6A7A8EDA5EBD2916}" {
+     SlotTemplate InventoryStorageSlot Ammo_SVD {
+      Prefab "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{6A7A8EDA5EBD2992}" {
+     SlotTemplate InventoryStorageSlot Grenade {
+      Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6A7A8EDA5EBD2990}" {
+     SlotTemplate InventoryStorageSlot Smoke {
+      Prefab "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
+     }
+     NumSlots 8
+    }
+   }
+   m_fMaxWeight 35
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.0769 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_OpenStorageAction "{5476DE57AA50402F}" {
+    }
+    SCR_PickUpItemAction "{6A7A8EDA5EBD299B}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{6A7A8EDA5EBD2999}" {
+      Name "#AR-Inventory_PickUp"
+      m_sIconName "pick-up"
+     }
+     "Sort Priority" 1
+    }
+   }
+  }
+ }
+ coords 5696.394 100.656 10022.264
+ angles 0 43.184 0
+}

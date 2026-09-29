@@ -1,0 +1,126 @@
+GenericEntity : "{34AD2F398FDFE5B3}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V5.et" {
+ coords 2995.371 205.365 7920.192
+ angles 0 -88.174 0
+}
+GenericEntity : "{36D873BC68DC0215}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_NoDecal.et" {
+ coords 2996.321 205.365 7919.215
+ angles 0 0.615 0
+}
+GenericEntity : "{447D815965819A7A}Prefabs/Props/Military/AmmoBoxes/Pex_BK_IMF.et" {
+ coords 2996.696 205.78 7918.947
+ angles 0 -87.936 0
+}
+$grp GenericEntity : "{64FC6554CDABE1AC}Prefabs/Props/Military/AmmoBoxes/Pex_Sandbags_IMF.et" {
+ {
+  coords 2995.96 205.365 7918.57
+  angles 0 0 0
+ }
+ {
+  coords 2995.962 205.522 7918.591
+  angles 0 0 0
+ }
+ {
+  coords 2995.89 205.784 7918.971
+  angles 0 89.585 0
+ }
+}
+$grp GenericEntity : "{752F7880082949CC}Prefabs/Items/Equipment/CamoNetDeployable/FIA/CamoNet_Folded_FIA_01_V1.et" {
+ {
+  coords 2992.853 205.365 7922.126
+  angles 0 -81.574 0
+ }
+ {
+  coords 2992.751 205.852 7921.058
+  angles 0 -87.697 0
+ }
+ {
+  coords 2992.822 205.365 7921.416
+  angles 0 -83.399 0
+ }
+ {
+  coords 2992.73 206.275 7921.426
+  angles 0 -85.304 0
+ }
+ {
+  coords 2992.81 205.877 7921.793
+  angles 0 -85.445 0
+ }
+ {
+  coords 2992.742 205.365 7920.754
+  angles 0 -84.437 0
+ }
+}
+GenericEntity : "{A5EB68070B174D79}Prefabs/Props/Military/AmmoBoxes/Pex_BK_Mine_IMF.et" {
+ coords 2996.309 205.784 7918.957
+ angles 0 93 0
+}
+$grp GenericEntity : "{B8A0EA2D60C121B8}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Ammunition_01_USSR_portable_SPG.et" {
+ {
+  coords 2997.336 205.365 7919.991
+  angles 0 98.242 0
+ }
+ {
+  coords 2995.684 205.365 7921.039
+  angles 0 5.143 0
+ }
+}
+$grp GenericEntity : "{BC30696CBE4AD99D}Prefabs/Items/Equipment/CamoNetDeployable/FIA/CamoNet_AssemblyKit_FIA_01_deployable.et" {
+ {
+  coords 2991.752 205.365 7918.795
+  angles 0 9.468 0
+ }
+ {
+  coords 2992.672 205.365 7915.395
+  angles 0 -81.981 0
+ }
+ {
+  coords 2991.476 205.365 7916.984
+  angles 0 8.36 0
+ }
+ {
+  coords 2991.582 205.365 7917.903
+  angles 0 8.097 0
+ }
+ {
+  coords 2992.86 205.365 7917.302
+  angles 0 -83.652 0
+ }
+ {
+  coords 2993.569 205.365 7915.255
+  angles 0 -82.042 0
+ }
+ {
+  coords 2994.508 205.365 7915.399
+  angles 0 -84.242 0
+ }
+ {
+  coords 2993.746 205.365 7917.146
+  angles 0 -83.984 0
+ }
+ {
+  coords 2991.243 205.365 7915.205
+  angles 0 7.93 0
+ }
+ {
+  coords 2991.349 205.365 7916.082
+  angles 0 6.698 0
+ }
+}
+GenericEntity : "{D13163C0833A72D8}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V4.et" {
+ coords 2995.086 205.365 7919.007
+ angles 0 3.552 0
+}
+$grp GenericEntity : "{E1D3F4727988FC10}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Ammunition_01_USSR_portable_AGS.et" {
+ {
+  coords 2997.209 205.365 7919.13
+  angles 0 99.248 0
+ }
+ {
+  coords 2996.543 205.365 7920.962
+  angles 0 6.43 0
+ }
+}
+GenericEntity : "{F870683132294E4E}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/FIA/EquipmentBoxStack_FIA_01_V5_covered.et" {
+ coords 2996.371 205.365 7920.273
+ angles 0 4.788 0
+}
