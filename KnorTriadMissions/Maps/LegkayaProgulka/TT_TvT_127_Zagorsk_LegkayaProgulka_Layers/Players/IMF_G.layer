@@ -27,8 +27,8 @@ $grp SCR_AIGroup : "{1DB620D350ACD31D}Prefabs/Groups/INDFOR/Group_IMF_Fireteam.e
     m_iSquad 3
    }
   }
-  coords 2784.364 186.997 7598.898
-  angles 5.299 21.722 -3.644
+  coords 1861.418 177.013 7973.252
+  angles -1.787 -86.575 -0.107
   m_aUnitPrefabSlots {
    "{3457601511E0EB38}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv2.et"
    "{2AD97345DD9316E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv1.et"
@@ -68,8 +68,8 @@ SCR_AIGroup IMF_000 : "{306075B25E4CA27D}Prefabs/Groups/INDFOR/Group_IMF_Officer
    m_iSquad 0
   }
  }
- coords 2707.14 199.937 7970.774
- angles 0 -78.539 0
+ coords 2969.881 206.142 7845.14
+ angles 0.001 -80.88 0.001
 }
 SCR_AIGroup IMF_002 : "{6079E21A4A1C3E40}Prefabs/Groups/INDFOR/Group_IMF_Crew.et" {
  components {
@@ -152,8 +152,8 @@ $grp SCR_AIGroup : "{F024E8255A989347}Prefabs/Groups/INDFOR/Group_IMF_RifleSquad
     m_iSquad 1
    }
   }
-  coords 3099.23 201.668 7814.574
-  angles 0.001 -80.756 -0.153
+  coords 2850.317 189.973 7572.807
+  angles 2.202 15.461 -1.247
   m_aUnitPrefabSlots {
    "{3457601511E0EB38}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv2.et"
    "{2AD97345DD9316E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv1.et"
@@ -172,8 +172,8 @@ $grp SCR_AIGroup : "{F024E8255A989347}Prefabs/Groups/INDFOR/Group_IMF_RifleSquad
     m_iSquad 4
    }
   }
-  coords 2710.938 199.998 7994.268
-  angles -1.743 -76.914 -0.405
+  coords 3010.877 205.365 7915.348
+  angles 0 -81.701 0
   m_aUnitPrefabSlots {
    "{682DCBA09335C23D}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv1.et"
    "{07841683C73B1F20}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv2.et"
@@ -183,5 +183,6 @@ $grp SCR_AIGroup : "{F024E8255A989347}Prefabs/Groups/INDFOR/Group_IMF_RifleSquad
    "{3D89C9CFA0BD3D83}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Marksman.et"
    "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Medic.et"
   }
+  m_bSnapToTerrain 0
  }
 }

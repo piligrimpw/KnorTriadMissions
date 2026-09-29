@@ -95,8 +95,8 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
      }
      CharacterModifierAttributes "{6A7694DCED3B65B4}" {
       StanceLimits 0.025 1
-      SpeedLimit 0.8
-      ADSSpeedLimit 0.8
+      SpeedLimit 1
+      ADSSpeedLimit 1
       SpeedLimitItemPrimaryAction 0
       SpeedLimitHighready 1.2
       CanBeEquippedInVehicle 0

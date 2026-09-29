@@ -25,7 +25,6 @@ SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA
      GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_IMF
     }
    }
-   m_bAutoRegister ALWAYS
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
    WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"

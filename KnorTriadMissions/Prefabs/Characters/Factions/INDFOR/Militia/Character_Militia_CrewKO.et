@@ -40,7 +40,7 @@ SCR_ChimeraCharacter : "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Mil
     }
     LoadoutSlotInfo Back {
      Enabled 1
-     Prefab "{4690DAECCF413CCA}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_IMF.et"
+     Prefab "{7A7DFA8DA6CC2F4B}Prefabs/Items/Equipment/Radios/Radio_RF10/Radio_RF10_IMF.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{2E69E1B4318D0FC5}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_belt_crew1_militia.et"
@@ -58,8 +58,7 @@ SCR_ChimeraCharacter : "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Mil
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6A6685AAFCF76FED}" {
      TargetStorage "Jacket/Jacket_M88Afghanka_Tucked.et"
-     PrefabsToSpawn {
-      "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{1F770FB6FB76DB1E}Prefabs/Items/Equipment/Radios/Radio_Baofeng_IMF.et" "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6A6685AAFCD76461}" {

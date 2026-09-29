@@ -71,38 +71,59 @@ $grp PolylineShapeEntity {
   }
   IsClosed 1
  }
- TriggerHomes {
-  coords 2933.713 223.492 8389.004
+ TriggerSuburb {
+  coords 1829.599 184.274 8004.729
   Points {
-   ShapePoint "{6A7678EC9C6A12D0}" {
-    Position -55.244 0 -127.591
+   ShapePoint "{6A770D34B4E0EF74}" {
+    Position -106.891 0 -103.742
    }
-   ShapePoint "{6A7678EC9B49EDC4}" {
-    Position -79.615 0 -69.348
+   ShapePoint "{6A770D34B39FEE74}" {
+    Position -111.601 0 -82.998
    }
-   ShapePoint "{6A7678EC995F52A9}" {
-    Position -89.827 0 -32.321
+   ShapePoint "{6A770D34B374C14C}" {
+    Position -116.784 0 -49.503
    }
-   ShapePoint "{6A7678EC67585F55}" {
-    Position -82.277 0 47.182
+   ShapePoint "{6A770D34B2D8D882}" {
+    Position -137.228 0 -30.523
    }
-   ShapePoint "{6A7678EC26390F7B}" {
-    Position -52.45 0 45.171
+   ShapePoint "{6A770D34B071BEF7}" {
+    Position -180.85 0 -21.923
    }
-   ShapePoint "{6A7678EC23679D35}" {
-    Position -39.745 0 135.576
+   ShapePoint "{6A770D34BE82FD4F}" {
+    Position -226.679 0 92.511
    }
-   ShapePoint "{6A7678EC215CAF5B}" {
-    Position 75.258 0 100.521
+   ShapePoint "{6A770D34BDBDDE4F}" {
+    Position -146.019 0 120.234
    }
-   ShapePoint "{6A7678EC2E8041E0}" {
-    Position 63.651 0 22.83
+   ShapePoint "{6A770D34BD608DB3}" {
+    Position -42.804 0 135.465
    }
-   ShapePoint "{6A7678EC2E282753}" {
-    Position 74.055 0 -12.902
+   ShapePoint "{6A770D34B99E801D}" {
+    Position 161.89 0 126.33
    }
-   ShapePoint "{6A7678EC2CB71AAA}" {
-    Position 106.194 0 -63.088
+   ShapePoint "{6A770D34B89FC7CA}" {
+    Position 189.751 0 89.334
+   }
+   ShapePoint "{6A770D34B8FE098A}" {
+    Position 201.613 0 61.308
+   }
+   ShapePoint "{6A770D34B872FB45}" {
+    Position 205.952 0 38.524
+   }
+   ShapePoint "{6A770D348739DE63}" {
+    Position 99.306 0 38.783
+   }
+   ShapePoint "{6A770D34862F6C2C}" {
+    Position 99.953 0 -32.521
+   }
+   ShapePoint "{6A770D348586BC3F}" {
+    Position 135.392 0 -46.378
+   }
+   ShapePoint "{6A770D348454CBD1}" {
+    Position 140.179 0 -73.059
+   }
+   ShapePoint "{6A770D348266EDA4}" {
+    Position -97.27 0 -118.882
    }
   }
   IsClosed 1
@@ -112,6 +133,8 @@ $grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.
  CaptureFactory {
   components {
    LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+    m_bBroadcastMessage 0
+    m_sMessage "Заводская территория была захвачена"
     m_sZoneEntityName "TriggerFactory"
     m_sZoneDisplayName "Заводская территория"
     m_sAttackerFaction "CDF"
@@ -123,6 +146,8 @@ $grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.
      "Flag4"
      "Flag5"
     }
+    m_fStatPoints 20
+    m_fStatMaxPerPlayer 1
     m_aConditions {
      LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
       m_sFaction "CDF"
@@ -138,11 +163,12 @@ $grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.
   }
   coords 3075.67 214.745 7839.657
  }
- CaptureHomes {
+ CaptureSuburb {
   components {
    LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
-    m_sZoneEntityName "TriggerHomes"
-    m_sZoneDisplayName "Жилые высотки"
+    m_bBroadcastMessage 0
+    m_sZoneEntityName "TriggerSuburb"
+    m_sZoneDisplayName "Частный сектор"
     m_sAttackerFaction "CDF"
     m_sDefenderFaction "IMF"
     m_aFlagNames {
@@ -152,6 +178,8 @@ $grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.
      "Flag9"
      "Flag10"
     }
+    m_fStatPoints 20
+    m_fStatMaxPerPlayer 1
     m_aConditions {
      LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
       m_sFaction "CDF"
@@ -186,6 +214,24 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
    }
   }
   coords 2624.081 172.608 7217.728
+ }
+ CriticalLossCDF {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sFactionKey "CDF"
+    m_iThreshold 8
+   }
+  }
+  coords 2583.724 174.516 7287.8
+ }
+ CriticalLossIMF {
+  components {
+   LL_TriggerCriticalLoss "{69BD22C250937F93}" {
+    m_sFactionKey "IMF"
+    m_iThreshold 5
+   }
+  }
+  coords 2598.983 173.998 7271.965
  }
 }
 GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
@@ -238,18 +284,20 @@ $grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPo
   angles 11.312 59.167 0
  }
  Flag6 {
-  coords 2865.666 235.801 8313.964
+  coords 1942.752 181.845 7934.393
+  angles -5.142 -4.741 43.894
  }
  Flag7 {
-  coords 2931.947 238.041 8299.941
+  coords 1984.368 184.503 8107.399
  }
  Flag8 {
-  coords 2957.352 240.677 8353.714
+  coords 1716.632 179.134 8052.731
+  angles -0.678 -6.892 -7.518
  }
  Flag9 {
-  coords 2953.004 243.486 8490.869
+  coords 1748.173 181.88 7947.571
  }
  Flag10 {
-  coords 2890.048 236.447 8454.753
+  coords 1855.559 186.788 7986.21
  }
 }

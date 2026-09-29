@@ -3,6 +3,11 @@ GenericEntity : "{A51B5534915AE3B6}Prefabs/Characters/Vests/Vest_SovietHarness/V
  components {
   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
    Slots {
+    LoadoutSlotInfo GrenadePouch {
+     Offset -0.1864 -0.0252 0.0407
+     Angles 0 -66.5089 0.5669
+     Prefab "{D11383C5E70AAA89}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_MedicalPouch.et"
+    }
     LoadoutSlotInfo MagPouch_6Sh46 {
      Prefab "{8C9F39278B899AE6}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et"
     }

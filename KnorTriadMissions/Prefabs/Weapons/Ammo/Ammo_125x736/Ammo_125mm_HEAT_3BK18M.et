@@ -1,0 +1,20 @@
+TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{5EC4ED74DDD6DD27}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{6A78F63709F00B66}" {
+     EffectPrefab "{E18D499FCA38F0B5}Prefabs/Weapons/Warheads/125mm/Warhead_125mm_HEAT_3BK18M.et"
+     ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+    AIExplosionEffect "{6A78F63701311ABF}" {
+    }
+   }
+   DELETE_ON_TRIGGER 1
+  }
+  CollisionTriggerComponent "{65E90564E471814A}" {
+   Enabled 0
+  }
+ }
+}
