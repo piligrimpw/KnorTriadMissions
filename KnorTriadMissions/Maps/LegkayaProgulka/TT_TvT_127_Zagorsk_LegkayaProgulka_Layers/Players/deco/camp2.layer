@@ -1,0 +1,1006 @@
+$grp ParticleEffectEntity {
+ {
+  coords 2825.192 168.466 7044.438
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 2821.612 168.794 7044.016
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 2822.65 168.459 7044.261
+  angles 0 94.823 0
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 2829.249 169.527 7042.832
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 2825.496 169.121 7041.128
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 2819.805 169.429 7041.277
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+ {
+  coords 2821.269 169.303 7039.978
+  EffectPath "{C0E2E7DC28B71E2C}Particles/Enviroment/Campfire_medium_normal.ptc"
+ }
+}
+GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x54_440rnd.et" {
+ coords 2800.148 168.849 7108.618
+}
+GenericEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+ coords 2775.641 169.594 7116.438
+ angles -1.668 61.006 -0.029
+}
+$grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ {
+  coords 2796.203 171.567 7105.286
+  angles 0 63.632 0
+ }
+ {
+  coords 2797.175 171.603 7105.748
+  angles 0 63.632 0
+ }
+ {
+  coords 2798.13 171.617 7106.237
+  angles 0 63.632 0
+ }
+ {
+  coords 2799.126 171.639 7106.662
+  angles 0 63.632 0
+ }
+ {
+  coords 2800.102 171.654 7107.205
+  angles 0 63.632 0
+ }
+ {
+  coords 2800.837 171.672 7108.061
+  angles 0 63.632 0
+ }
+ {
+  coords 2801.55 171.699 7108.996
+  angles 0 63.632 0
+ }
+ {
+  coords 2802.327 171.733 7109.818
+  angles 0 63.632 0
+ }
+ {
+  coords 2796.462 171.699 7107.745
+  angles 0 -24.548 0
+ }
+ {
+  coords 2795.282 171.784 7108.351
+  angles 0 -24.548 0
+ }
+ {
+  coords 2799.142 171.696 7109.067
+  angles 0 -24.548 0
+ }
+ {
+  coords 2798.202 171.831 7109.601
+  angles 0 -24.548 0
+ }
+ {
+  coords 2796.234 171.83 7109.909
+  angles 0 -23.247 0
+ }
+ {
+  coords 2800.283 171.737 7110.823
+  angles 0 -24.548 0
+ }
+ {
+  coords 2799.115 171.799 7111.168
+  angles 0 -24.548 0
+ }
+ {
+  coords 2797.337 171.88 7111.363
+  angles 0 -24.548 0
+ }
+ {
+  coords 2780.802 172.185 7116.231
+  angles 0 63.632 0
+ }
+ {
+  coords 2779.844 172.19 7115.693
+  angles 0 63.632 0
+ }
+ {
+  coords 2778.935 172.16 7115.228
+  angles 0 63.632 0
+ }
+ {
+  coords 2777.943 172.149 7114.738
+  angles 0 63.632 0
+ }
+ {
+  coords 2776.981 172.152 7114.276
+  angles 0 63.632 0
+ }
+ {
+  coords 2776.102 172.144 7113.802
+  angles 0 63.632 0
+ }
+ {
+  coords 2774.513 172.224 7116.633
+  angles 0 63.632 0
+ }
+ {
+  coords 2775.43 172.22 7117.108
+  angles 0 63.632 0
+ }
+ {
+  coords 2776.33 172.234 7117.582
+  angles 0 63.632 0
+ }
+ {
+  coords 2777.27 172.25 7118.013
+  angles 0 63.632 0
+ }
+ {
+  coords 2778.203 172.258 7118.523
+  angles 0 63.632 0
+ }
+ {
+  coords 2779.149 172.252 7119.017
+  angles 0 63.632 0
+ }
+ {
+  coords 2774.052 172.268 7118.823
+  angles 0 -25.782 0
+ }
+ {
+  coords 2776.93 172.28 7120.232
+  angles 0 -25.782 0
+ }
+ {
+  coords 2779.361 169.976 7114.114
+  angles 0 -27.108 0
+ }
+}
+$grp GenericEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMilitary_US_02.et" {
+ {
+  coords 2776.977 169.516 7114.458
+  angles -1.109 59.996 1.961
+ }
+ {
+  coords 2797.73 169.052 7110.804
+  angles 0 55.689 0
+ }
+}
+$grp GenericEntity : "{3F0D0593590519DA}Prefabs/Props/Garbage/Tires/TirePile_01_medium.et" {
+ {
+  coords 2827.953 169.119 7042.953
+  angles 1.478 -34.368 -1.01
+ }
+ {
+  coords 2827.579 169.093 7044.045
+  angles -1.79 0 0
+ }
+ {
+  coords 2824.757 169.058 7043.154
+  angles -1.79 0 0
+ }
+ {
+  coords 2825.131 169.084 7042.063
+  angles 1.478 -34.368 -1.01
+ }
+ {
+  coords 2822.174 169.09 7041.121
+  angles 1.728 164.889 -0.467
+ }
+ {
+  coords 2821.529 169.06 7042.077
+  angles 1.162 130.475 -1.362
+ }
+}
+$grp GenericEntity : "{5DD9020BE477CB9C}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_1080rnd.et" {
+ {
+  coords 2799.375 169.017 7107.761
+  angles 0 -138.128 0
+ }
+ {
+  coords 2776.501 169.712 7119.099
+  angles -1.921 88.749 1.2
+ }
+}
+$grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ {
+  coords 2792.105 169.824 7128.38
+  angles -0.632 110.687 1.674
+ }
+ {
+  coords 2795.447 169.013 7112.862
+  angles 1.071 19.98 2.293
+ }
+}
+$grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Weapon_01_USSR.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2802.542 169.864 7106.702
+  angles 0 -51.032 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2802.534 168.65 7106.666
+  angles 0 -51.032 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2802.542 169.274 7106.69
+  angles 0 -51.032 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2800.799 168.582 7105.203
+  angles 0 -33.98 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2800.817 169.796 7105.235
+  angles 0 -33.98 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2800.813 169.206 7105.224
+  angles 0 -33.98 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2798.742 168.703 7104.238
+  angles 0 -26.439 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2798.759 169.327 7104.256
+  angles 0 -26.439 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2803.86 168.667 7108.354
+  angles 0 -52.543 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2803.867 169.291 7108.378
+  angles 0 -52.543 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2778.344 169.132 7112.168
+  angles 0 -26.439 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2778.361 169.756 7112.186
+  angles 0 -26.439 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2780.201 169.256 7112.991
+  angles 0 -26.439 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2780.218 169.88 7113.009
+  angles 0 -26.439 0
+  scale 1.606
+ }
+}
+GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ coords 2780.276 169.439 7119.303
+ angles 2.429 -28.673 0.711
+}
+$grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ {
+  coords 2798.796 -0 7101.859
+ }
+ {
+  coords 2804.235 0.169 7101.623
+  angles 0 -55.682 0
+ }
+ {
+  coords 2806.801 0 7106.83
+  angles 0 74.808 0
+ }
+ {
+  coords 2780.839 0 7109.225
+  angles 0 -29.944 0
+ }
+ {
+  coords 2782.647 0 7111.868
+  angles 0 53.745 0
+ }
+ {
+  coords 2817.376 0 7111.875
+  angles 0 -25.517 0
+ }
+ {
+  coords 2817.364 -0 7105.938
+  angles 0 57.402 0
+ }
+}
+$grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleObstacle_USSR_02/VehicleObstacle_USSR_02.et" {
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2775.678 170.464 7114.021
+  angles -0.866 -118.925 -1.567
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2775.393 169.266 7120.265
+  angles 2.409 -27.176 0.774
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2780.678 169.165 7116.557
+  angles -0.721 61.536 2.426
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2789.158 169.485 7125.689
+  angles 2.312 -28.135 -3.261
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2773.709 170.663 7117.707
+  angles -0.866 -118.925 -1.567
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2780.687 170.586 7116.5
+  angles -0.721 61.536 2.426
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2778.936 169.029 7113.896
+  angles 2.409 -27.176 0.774
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2775.552 170.685 7120.256
+  angles 2.409 -27.176 0.774
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2775.715 169.044 7114.116
+  angles -0.866 -118.925 -1.567
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2773.688 169.232 7117.677
+  angles -0.866 -118.925 -1.567
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2784.525 169.41 7127.484
+  angles 0.236 -117.861 0.324
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2802.454 168.664 7108.632
+  angles 2.275 -50.524 -1.696
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2802.084 170.14 7110.948
+  angles 0 41.061 0
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2798.168 170.385 7112.827
+  angles -1.42 137.336 0.05
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2798.325 168.955 7112.737
+  angles 0 -38.113 0
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2795.958 168.707 7105.742
+  angles 0 64.638 0
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2800.851 170.073 7106.863
+  angles 0 -38.828 0
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2801.387 168.815 7111.695
+  angles -3.794 -135.046 -1.26
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2798.979 168.747 7105.865
+  angles 2.422 -28.133 0.734
+  scale 2.241
+ }
+ {
+  components {
+   DynamicPhysicsObstacleComponent "{662B0BF39B284ADC}" {
+    Enabled 0
+   }
+  }
+  coords 2796.049 170.129 7105.752
+  angles 0 64.638 0
+  scale 2.241
+ }
+}
+$grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+ {
+  coords 2797.746 0 7114.349
+  angles 2.653 -42.158 -2.399
+ }
+ {
+  coords 2796.501 -0 7114.591
+  angles 3.573 0.112 1.793
+ }
+}
+$grp GenericEntity : "{C6BFE324CCCFE6C4}Prefabs/Props/Military/Furniture/CotMilitary_USSR_01.et" {
+ {
+  coords 2775.69 169.733 7118.771
+  angles -1.964 150.624 -1.128
+ }
+ {
+  coords 2799.839 168.852 7108.007
+  angles 2.772 -38.502 0.999
+ }
+}
+$grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ {
+  coords 2778.539 171.981 7114.388
+  angles 0.408 63.745 3.913
+  scale 1.77
+ }
+ {
+  coords 2777.668 172.038 7116.356
+  angles 0.408 63.745 2.077
+  scale 1.77
+ }
+ {
+  coords 2775.332 172.103 7119.533
+  angles 0.408 63.745 2.077
+  scale 1.77
+ }
+ {
+  coords 2776.53 172.085 7117.84
+  angles 0.408 63.745 2.077
+  scale 1.77
+ }
+ {
+  coords 2801.462 171.518 7108.17
+  angles 1.093 43.77 1.812
+  scale 1.699
+ }
+ {
+  coords 2796.133 171.661 7109.732
+  angles 1.311 36.588 1.662
+  scale 1.77
+ }
+ {
+  coords 2798.559 171.467 7108.792
+  angles 0.983 45.047 1.836
+  scale 2.28
+ }
+ {
+  coords 2798.703 171.462 7105.902
+  angles 0.906 63.734 1.01
+  scale 1.699
+ }
+ {
+  coords 2797.801 171.639 7111.567
+  angles -1.076 -135.693 -1.823
+  scale 1.77
+ }
+ {
+  coords 2799.052 168.701 7108.209
+  angles -0.85 51.504 1.944
+  scale 1.829
+ }
+ {
+  coords 2797.58 168.868 7109.882
+  angles -0.85 51.504 1.944
+  scale 1.829
+ }
+ {
+  coords 2778.117 169.363 7115.403
+  angles -1.177 61.578 1.765
+  scale 1.372
+ }
+ {
+  coords 2777.42 169.417 7116.951
+  angles -1.177 61.578 1.765
+  scale 1.372
+ }
+ {
+  coords 2777.057 169.488 7118.193
+  angles -1.177 61.578 1.765
+  scale 1.372
+ }
+ {
+  coords 2776.687 169.579 7119.422
+  angles -1.177 61.578 1.765
+  scale 1.372
+ }
+}
+$grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et" {
+ {
+  coords 2794.621 168.89 7108.856
+  angles 0 64.294 1.409
+ }
+ {
+  coords 2780.226 169.529 7121.146
+  angles -0.658 60.069 2.443
+ }
+}
+$grp GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
+ {
+  coords 2798.126 169.729 7105.475
+  angles 0 -26.066 0
+ }
+ {
+  coords 2802.522 169.638 7108.77
+  angles 0 -54.17 0
+ }
+ {
+  coords 2803.449 171.725 7109.89
+  angles 0 64.928 0
+ }
+ {
+  coords 2799.624 171.819 7112.467
+  angles 0 -21.075 0
+ }
+ {
+  coords 2799.227 171.858 7113.429
+  angles 0 -21.075 0
+ }
+ {
+  coords 2797.788 171.903 7112.58
+  angles 0 -21.075 0
+ }
+ {
+  coords 2800.077 169.763 7112.699
+  angles 0 42.314 0
+ }
+ {
+  coords 2794.885 171.057 7108.457
+  angles 0 66.089 0
+ }
+ {
+  coords 2777.669 169.967 7113.26
+  angles 0 -26.086 0
+ }
+}
+$grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+ {
+  coords 2804.219 168.406 7097.647
+  angles -4.533 71.782 3.366
+ }
+ {
+  coords 2806.451 168.006 7100.369
+  angles 2.664 31.917 5.853
+ }
+ {
+  coords 2808.096 168.33 7103.511
+  angles 4.892 24.08 2.183
+ }
+}
+$grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
+ {
+  coords 2800.371 168.975 7111.059
+  angles 0 38.141 0
+ }
+ {
+  coords 2800.421 169.129 7111.069
+  angles 0 67.986 0
+ }
+ {
+  coords 2800.813 168.862 7110.652
+  angles 0 138.751 0
+ }
+ {
+  coords 2799.377 168.863 7107.767
+  angles 0 38.141 0
+ }
+ {
+  coords 2775.316 169.657 7117.031
+  angles 1.143 0.039 1.941
+ }
+ {
+  coords 2775.148 169.671 7117.536
+  angles -1.867 154.526 -1.26
+ }
+}

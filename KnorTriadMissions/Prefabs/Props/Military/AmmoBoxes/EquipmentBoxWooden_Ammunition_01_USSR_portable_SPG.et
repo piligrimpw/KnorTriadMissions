@@ -112,7 +112,7 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
      SlotTemplate InventoryStorageSlot ammo_spg {
       Prefab "{8963DCFB25DE785B}SPG-9/spg9vehammo.et"
      }
-     NumSlots 30
+     NumSlots 20
     }
    }
    m_fMaxWeight 45

@@ -104,23 +104,11 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
      }
      NumSlots 20
     }
-    MultiSlotConfiguration "{6A7A8EDA5EBD2913}" {
-     SlotTemplate InventoryStorageSlot Ammo_AK_47 {
-      Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
-     }
-     NumSlots 20
-    }
     MultiSlotConfiguration "{6A7A8EDA5EBD2916}" {
      SlotTemplate InventoryStorageSlot Ammo_SVD {
       Prefab "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et"
      }
      NumSlots 20
-    }
-    MultiSlotConfiguration "{6A7A8EDA5EBD2992}" {
-     SlotTemplate InventoryStorageSlot Grenade {
-      Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
-     }
-     NumSlots 5
     }
     MultiSlotConfiguration "{6A7A8EDA5EBD2990}" {
      SlotTemplate InventoryStorageSlot Smoke {

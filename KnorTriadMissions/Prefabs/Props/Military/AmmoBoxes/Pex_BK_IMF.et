@@ -102,37 +102,61 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
      SlotTemplate InventoryStorageSlot Ammo_ak74 {
       Prefab "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
      }
-     NumSlots 30
+     NumSlots 25
     }
     MultiSlotConfiguration "{6A7A8ED779D7BA79}" {
      SlotTemplate InventoryStorageSlot Ammo_AK_47 {
       Prefab "{B11727710EC12776}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_30rnd_Last_5Tracer.et"
      }
-     NumSlots 30
+     NumSlots 25
     }
     MultiSlotConfiguration "{6A7A8ED7F178F156}" {
      SlotTemplate InventoryStorageSlot Ammo_SVD {
       Prefab "{761A03A9C5BA8D68}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Base.et"
      }
-     NumSlots 30
+     NumSlots 10
     }
     MultiSlotConfiguration "{6A7A8ED7AA6A87D2}" {
      SlotTemplate InventoryStorageSlot Grenade {
       Prefab "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
-     NumSlots 30
+     NumSlots 16
     }
     MultiSlotConfiguration "{6A7A8ED7A98F5AAC}" {
      SlotTemplate InventoryStorageSlot Smoke {
       Prefab "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
-     NumSlots 30
+     NumSlots 10
     }
     MultiSlotConfiguration "{6A7A8EDB45FB10DE}" {
      SlotTemplate InventoryStorageSlot Ammo_MG {
       Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }
-     NumSlots 15
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{6A7AE0C1595A63B0}" {
+     SlotTemplate InventoryStorageSlot Ammo_MG {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+     NumSlots 18
+    }
+    MultiSlotConfiguration "{6A7AE0C1446A81AC}" {
+     SlotTemplate InventoryStorageSlot Ammo_MG {
+      Prefab "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
+     NumSlots 14
+    }
+    MultiSlotConfiguration "{6A7AE0C177DE2D1F}" {
+     SlotTemplate InventoryStorageSlot Ammo_MG {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 14
+    }
+    MultiSlotConfiguration "{6A7AE0C161542E85}" {
+     SlotTemplate InventoryStorageSlot Ammo_MG {
+      Prefab "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et"
+     }
+     NumSlots 3
     }
    }
    m_fMaxWeight 35

@@ -112,7 +112,7 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
      SlotTemplate InventoryStorageSlot ammo_AGS {
       Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
      }
-     NumSlots 10
+     NumSlots 6
     }
    }
    m_fMaxWeight 45

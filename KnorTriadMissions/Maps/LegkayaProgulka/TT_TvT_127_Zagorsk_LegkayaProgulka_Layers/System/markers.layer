@@ -298,6 +298,42 @@ $grp LL_ManualMarker : "{A26B093A4E1F6D20}Prefabs/Map/LL_ManualMarker.et" {
   m_MarkerColor 0 0.125 0.502 1
   m_fWorldSize 500
  }
+ {
+  coords 2997.741 205.365 7917.772
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sQuadName "AR_icon_target_reference_point_01"
+  m_MarkerColor 0.502 0 0 1
+  m_fWorldSize 20
+  m_sDescription "Склад"
+  m_bShowForAnyFaction 0
+  m_aVisibleForFactions {
+   "IMF"
+  }
+ }
+ {
+  coords 2787.734 169.28 7117.973
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sQuadName "AR_icon_fortification"
+  m_MarkerColor 0.502 0 0 1
+  m_fWorldSize 100
+  m_sDescription "Блокпост"
+  m_bShowForAnyFaction 0
+  m_aVisibleForFactions {
+   "IMF"
+  }
+ }
+ {
+  coords 2211.422 187.969 8122.062
+  m_sImageSet "{B9E14AFE75AEBB19}UI/Textures/Icons/icons_mapMarkersUI_drawing/icons_DR_mapMarkersUI.imageset"
+  m_sQuadName "AR_icon_fortification"
+  m_MarkerColor 0.502 0 0 1
+  m_fWorldSize 100
+  m_sDescription "Блокпост"
+  m_bShowForAnyFaction 0
+  m_aVisibleForFactions {
+   "IMF"
+  }
+ }
 }
 $grp PolylineShapeEntity : "{F1A7F9989D3DA4CC}Prefabs/Zones/LL_RestrictionZone.et" {
  KillZone4All {
