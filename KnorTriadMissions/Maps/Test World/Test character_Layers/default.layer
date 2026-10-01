@@ -67,6 +67,10 @@ SCR_ChimeraCharacter : "{3599F74FE00D3286}Prefabs/Characters/Factions/BLUFOR/CDF
  coords 1596.785 38.043 2930.31
  angles 0 157.795 0
 }
+SCR_ChimeraCharacter : "{3B18DE3D1BC74689}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV2.et" {
+ coords 1612.04 38.287 2935.279
+ angles 0 154.757 0
+}
 SCR_ChimeraCharacter : "{3D89C9CFA0BD3D83}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Marksman.et" {
  coords 1620.233 38.57 2936.116
  angles 0 158.325 0
@@ -179,7 +183,7 @@ SCR_ChimeraCharacter : "{682DCBA09335C23D}Prefabs/Characters/Factions/INDFOR/Mil
  coords 1610.124 38.254 2933.411
  angles 0 164.7 0
 }
-SCR_ChimeraCharacter : "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et" {
+SCR_ChimeraCharacter : "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV1.et" {
  coords 1612.233 38.32 2933.826
  angles 0 156.419 0
 }
