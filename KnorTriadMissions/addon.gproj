@@ -7,9 +7,6 @@ GameProject {
  }
  Configurations {
   GameProjectConfig PC {
-   FarHideSystemSettings FarHideSystemSettings "{69EC769CF49B9203}" {
-    Enabled 0
-   }
    WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
     StringTables {
      StringTableDefinition "{6A6472C031B0B0CC}" {

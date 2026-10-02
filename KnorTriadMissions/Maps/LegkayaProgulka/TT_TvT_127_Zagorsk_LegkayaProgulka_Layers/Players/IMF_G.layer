@@ -9,15 +9,6 @@ $grp SCR_AIGroup : "{1DB620D350ACD31D}Prefabs/Groups/INDFOR/Group_IMF_Fireteam.e
   }
   coords 1474.657 189.011 7006.91
   angles 0.19 -173.898 -1.78
-  m_aUnitPrefabSlots {
-   "{682DCBA09335C23D}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv1.et"
-   "{07841683C73B1F20}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv2.et"
-   "{784BD64DD7A899E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanRPK.et"
-   "{309FCD1385879103}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_AT.et"
-   "{235AEC43AEC6AFA0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ATass.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
-   "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Medic.et"
-  }
  }
  IMF_013 {
   components {
@@ -31,11 +22,11 @@ $grp SCR_AIGroup : "{1DB620D350ACD31D}Prefabs/Groups/INDFOR/Group_IMF_Fireteam.e
   angles -1.787 -86.575 -0.107
   m_aUnitPrefabSlots {
    "{3457601511E0EB38}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv2.et"
-   "{2AD97345DD9316E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv1.et"
+   "{07841683C73B1F20}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv2.et"
    "{784BD64DD7A899E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanRPK.et"
    "{309FCD1385879103}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_AT.et"
    "{235AEC43AEC6AFA0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ATass.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
+   "{3B18DE3D1BC74689}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV2.et"
    "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Medic.et"
   }
  }
@@ -50,12 +41,12 @@ $grp SCR_AIGroup : "{1DB620D350ACD31D}Prefabs/Groups/INDFOR/Group_IMF_Fireteam.e
   coords 1474.829 189.37 7182.506
   angles -3.705 94.51 1.5
   m_aUnitPrefabSlots {
-   "{682DCBA09335C23D}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv1.et"
+   "{3457601511E0EB38}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv2.et"
    "{07841683C73B1F20}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv2.et"
    "{784BD64DD7A899E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanRPK.et"
    "{309FCD1385879103}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_AT.et"
    "{235AEC43AEC6AFA0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ATass.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
+   "{3B18DE3D1BC74689}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV2.et"
    "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Medic.et"
   }
  }
@@ -99,7 +90,7 @@ $grp SCR_AIGroup : "{F024E8255A989347}Prefabs/Groups/INDFOR/Group_IMF_RifleSquad
    "{07841683C73B1F20}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv2.et"
    "{BA207AC892419BBC}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_MG.et"
    "{C0DFD7647229FAC0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_MGass.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
+   "{DE8492C41722D1E2}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV3.et"
    "{3D89C9CFA0BD3D83}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Marksman.et"
    "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Medic.et"
   }
@@ -115,12 +106,12 @@ $grp SCR_AIGroup : "{F024E8255A989347}Prefabs/Groups/INDFOR/Group_IMF_RifleSquad
   coords 1597.679 184.135 7184.97
   angles 0 -111.232 0
   m_aUnitPrefabSlots {
-   "{3457601511E0EB38}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv2.et"
+   "{682DCBA09335C23D}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv1.et"
    "{2AD97345DD9316E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv1.et"
    "{784BD64DD7A899E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanRPK.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
+   "{DE8492C41722D1E2}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV3.et"
+   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV1.et"
+   "{3B18DE3D1BC74689}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV2.et"
    "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Medic.et"
   }
  }
@@ -139,7 +130,7 @@ $grp SCR_AIGroup : "{F024E8255A989347}Prefabs/Groups/INDFOR/Group_IMF_RifleSquad
    "{2AD97345DD9316E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv1.et"
    "{BA207AC892419BBC}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_MG.et"
    "{C0DFD7647229FAC0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_MGass.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
+   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV1.et"
    "{3D89C9CFA0BD3D83}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Marksman.et"
    "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Medic.et"
   }
@@ -158,9 +149,9 @@ $grp SCR_AIGroup : "{F024E8255A989347}Prefabs/Groups/INDFOR/Group_IMF_RifleSquad
    "{3457601511E0EB38}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv2.et"
    "{2AD97345DD9316E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv1.et"
    "{784BD64DD7A899E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanRPK.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
+   "{3B18DE3D1BC74689}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV2.et"
+   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV1.et"
+   "{DE8492C41722D1E2}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV3.et"
    "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Medic.et"
   }
  }
@@ -179,7 +170,7 @@ $grp SCR_AIGroup : "{F024E8255A989347}Prefabs/Groups/INDFOR/Group_IMF_RifleSquad
    "{07841683C73B1F20}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv2.et"
    "{BA207AC892419BBC}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_MG.et"
    "{C0DFD7647229FAC0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_MGass.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Rifleman.et"
+   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV1.et"
    "{3D89C9CFA0BD3D83}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Marksman.et"
    "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Medic.et"
   }

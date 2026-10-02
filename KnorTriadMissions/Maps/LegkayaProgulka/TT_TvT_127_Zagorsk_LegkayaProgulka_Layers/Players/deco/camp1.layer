@@ -1,3 +1,7 @@
+GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x54_440rnd.et" {
+ coords 2206.011 187.707 8108.269
+ angles 0.78 -77.736 -4.15
+}
 $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
  {
   coords 2215.932 190.224 8112.416
@@ -216,6 +220,10 @@ $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 -9.427 0
  }
 }
+GenericEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMilitary_US_02.et" {
+ coords 2206.441 187.587 8106.392
+ angles 2.292 44.692 2.416
+}
 $grp StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
  {
   coords 2203.107 0.126 8095.404
@@ -225,6 +233,10 @@ $grp StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortific
   coords 2200.632 -0.199 8096.722
   angles -6.122 -120.813 2.071
  }
+}
+GenericEntity : "{5DD9020BE477CB9C}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_1080rnd.et" {
+ coords 2206.041 187.685 8107.954
+ angles 2.036 57.321 3.156
 }
 $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
  {
@@ -939,6 +951,58 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
   angles 0 83.654 0
   scale 1.606
  }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2205.328 187.844 8111.271
+  angles 0 79.019 0
+  scale 1.606
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+    Enabled 1
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      DamageReduction 100
+      DamageThreshold 100
+      "Collision multiplier" 0.8
+      "Melee multiplier" 0.1
+      "Kinetic multiplier" 0.1
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 4
+     }
+    }
+    m_fBaseHealth 6000
+    m_fDamageThresholdMaximum 50000
+   }
+   RplComponent "{5476B36C54387F41}" {
+    Enabled 1
+   }
+  }
+  coords 2205.333 188.445 8111.241
+  angles 0 80.145 0
+  scale 1.606
+ }
 }
 GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
  coords 2215.9 188.824 8114.474
@@ -1325,6 +1389,10 @@ $grp GenericEntity : "{C6BFE324CCCFE6C4}Prefabs/Props/Military/Furniture/CotMili
   coords 2221.106 188.061 8110.089
   angles -2.327 -55.597 0.914
  }
+ {
+  coords 2205.801 187.765 8108.659
+  angles 0.616 78.215 2.358
+ }
 }
 $grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
  {
@@ -1510,5 +1578,13 @@ $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox
  {
   coords 2217.462 188.01 8110.875
   angles 0 -6.681 0
+ }
+ {
+  coords 2205.671 187.796 8109.408
+  angles 1.881 20.204 0.61
+ }
+ {
+  coords 2205.843 187.744 8108.875
+  angles -3.299 170.426 0.448
  }
 }

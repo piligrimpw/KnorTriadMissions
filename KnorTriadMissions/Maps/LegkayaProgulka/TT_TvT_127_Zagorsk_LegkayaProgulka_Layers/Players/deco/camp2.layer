@@ -26,7 +26,7 @@ $grp ParticleEffectEntity {
  }
 }
 GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x54_440rnd.et" {
- coords 2800.148 168.849 7108.618
+ coords 2800.151 168.923 7108.617
 }
 GenericEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
  coords 2775.641 169.594 7116.438
@@ -157,6 +157,30 @@ $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 2779.361 169.976 7114.114
   angles 0 -27.108 0
  }
+ {
+  coords 2777.438 168.481 7102.837
+  angles 37.575 -18.159 -6.11
+ }
+ {
+  coords 2777.27 168.546 7103.176
+  angles -32.001 -14.101 -3.616
+ }
+ {
+  coords 2777.32 168.598 7103.264
+  angles -1.694 -14.121 -0.778
+ }
+ {
+  coords 2774.038 168.378 7103.09
+  angles 41.208 12.403 -6.043
+ }
+ {
+  coords 2774.061 168.466 7103.463
+  angles -28.381 16.243 -3.267
+ }
+ {
+  coords 2774.149 168.523 7103.51
+  angles 1.926 16.399 -0.472
+ }
 }
 $grp GenericEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMilitary_US_02.et" {
  {
@@ -166,6 +190,16 @@ $grp GenericEntity : "{39C308BBB5945B85}Prefabs/Props/Military/Furniture/ChairMi
  {
   coords 2797.73 169.052 7110.804
   angles 0 55.689 0
+ }
+}
+$grp StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+ {
+  coords 2777.183 0.253 7102.926
+  angles 1.684 162.183 6.662
+ }
+ {
+  coords 2773.858 0.14 7103.279
+  angles -1.948 -167.297 6.59
  }
 }
 $grp GenericEntity : "{3F0D0593590519DA}Prefabs/Props/Garbage/Tires/TirePile_01_medium.et" {
@@ -226,7 +260,7 @@ $grp GenericEntity : "{3F0D0593590519DA}Prefabs/Props/Garbage/Tires/TirePile_01_
 }
 $grp GenericEntity : "{5DD9020BE477CB9C}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_1080rnd.et" {
  {
-  coords 2799.375 169.017 7107.761
+  coords 2799.378 169.09 7107.759
   angles 0 -138.128 0
  }
  {
@@ -579,7 +613,7 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 2780.201 169.256 7112.991
+  coords 2780.147 169.256 7113.1
   angles 0 -26.439 0
   scale 1.606
  }
@@ -605,7 +639,7 @@ $grp GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/Eq
     Enabled 1
    }
   }
-  coords 2780.218 169.88 7113.009
+  coords 2780.164 169.88 7113.117
   angles 0 -26.439 0
   scale 1.606
  }
@@ -905,6 +939,10 @@ $grp StaticModelEntity : "{AB6514FF76709AB3}Prefabs/Props/Military/AntiVehicleOb
   scale 2.241
  }
 }
+GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+ coords 2778.048 170.658 7113.378
+ angles 0 -25.1 0
+}
 $grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
  {
   coords 2797.746 0 7114.349
@@ -921,7 +959,7 @@ $grp GenericEntity : "{C6BFE324CCCFE6C4}Prefabs/Props/Military/Furniture/CotMili
   angles -1.964 150.624 -1.128
  }
  {
-  coords 2799.839 168.852 7108.007
+  coords 2799.843 168.925 7108.004
   angles 2.772 -38.502 0.999
  }
 }
@@ -972,7 +1010,7 @@ $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_0
   scale 1.77
  }
  {
-  coords 2799.052 168.701 7108.209
+  coords 2799.055 168.787 7108.208
   angles -0.85 51.504 1.944
   scale 1.829
  }
@@ -1014,12 +1052,12 @@ $grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_
 }
 $grp GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
  {
-  coords 2798.126 169.729 7105.475
+  coords 2798.126 169.618 7105.475
   angles 0 -26.066 0
  }
  {
-  coords 2802.522 169.638 7108.77
-  angles 0 -54.17 0
+  coords 2802.522 169.518 7108.77
+  angles 0 -50.912 0
  }
  {
   coords 2803.449 171.725 7109.89
@@ -1038,8 +1076,8 @@ $grp GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 -21.075 0
  }
  {
-  coords 2800.077 169.763 7112.699
-  angles 0 42.314 0
+  coords 2800.077 169.717 7112.699
+  angles 0 42.275 1.414
  }
  {
   coords 2794.885 171.057 7108.457
@@ -1063,6 +1101,18 @@ $grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/Bar
   coords 2808.096 168.33 7103.511
   angles 4.892 24.08 2.183
  }
+ {
+  coords 2781.412 168.407 7100.997
+  angles 0.376 77.864 1.75
+ }
+ {
+  coords 2777.625 168.408 7100.53
+  angles -0.108 91.732 3.575
+ }
+ {
+  coords 2771.776 168.46 7101.708
+  angles 0.471 74.744 1.727
+ }
 }
 $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox_545x39_2160rnd.et" {
  {
@@ -1074,11 +1124,11 @@ $grp GenericEntity : "{E521AEA6D14589B1}Prefabs/Props/Military/AmmoBoxes/AmmoBox
   angles 0 67.986 0
  }
  {
-  coords 2800.813 168.862 7110.652
-  angles 0 138.751 0
+  coords 2800.813 168.947 7110.652
+  angles -2.168 138.778 -0.708
  }
  {
-  coords 2799.377 168.863 7107.767
+  coords 2799.38 168.936 7107.766
   angles 0 38.141 0
  }
  {
