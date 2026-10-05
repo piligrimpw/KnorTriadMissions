@@ -18,6 +18,7 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    "Turned on" 1
    Transceivers {
     RelayTransceiver "{6A78CBEC101640A1}" {
+     ChannelFrequency 72000
      "Transmitting Range" 8000
      "Min tunable frequency" 30000
      "Max tunable frequency" 76000
@@ -27,8 +28,6 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
   }
   MeshObject "{5A30BAE7673C63D1}" {
    Object "{2B2DB1B26184D8AA}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01_item_02.xob"
-  }
-  RHS_SGC_RadialMenuComponent "{6A78CBEDFBE3295B}" {
   }
   RigidBody "{5A30BAE7673C63D3}" {
    ModelGeometry 1

@@ -18,7 +18,7 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
     ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
      Name "Baofeng UV-5R"
-     Description "Китайская гражданская радиостанция с возможностью ручного ввода частоты. Дешевая и одноканальная, зато надежная."
+     Description "Китайская гражданская радиостанция с возможностью ручного ввода частоты. Дешевая, зато надежная."
      Icon "{2FBD8DA665FB8AF1}UI/Textures/VON/ANPRC68-100px_UI.edds"
     }
     ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
