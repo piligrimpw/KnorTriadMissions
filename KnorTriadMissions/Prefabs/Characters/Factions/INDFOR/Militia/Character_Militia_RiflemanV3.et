@@ -27,6 +27,8 @@ SCR_ChimeraCharacter : "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Mil
     LoadoutSlotInfo HandWear {
      Prefab "{8266820FFDE17477}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01.et"
     }
+    LoadoutSlotInfo Face {
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

@@ -283,3 +283,26 @@ $grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPo
   coords 1855.559 186.788 7986.21
  }
 }
+$grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
+ {
+  coords 426.14 168.26 3745.296
+  scale 1.5
+  m_fWarnRadius 111
+  m_fZoneRadius 171
+  m_fZoneTeleportedRadius 186
+ }
+ {
+  coords 3464.125 206.418 3833.698
+  scale 1.5
+  m_fWarnRadius 111
+  m_fZoneRadius 171
+  m_fZoneTeleportedRadius 186
+ }
+ {
+  coords 2620.646 216.702 3841.797
+  scale 1.5
+  m_fWarnRadius 111
+  m_fZoneRadius 171
+  m_fZoneTeleportedRadius 186
+ }
+}

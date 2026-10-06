@@ -33,6 +33,9 @@ SCR_ChimeraCharacter : "{235AEC43AEC6AFA0}Prefabs/Characters/Factions/INDFOR/Mil
     LoadoutSlotInfo HandWear {
      Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
     }
+    LoadoutSlotInfo Face {
+     Prefab "{CB8F70B71FB0ED27}Prefabs/Characters/HeadGear/Balaclavas/cotton_balaclava_standalone.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -58,14 +61,14 @@ SCR_ChimeraCharacter : "{235AEC43AEC6AFA0}Prefabs/Characters/Factions/INDFOR/Mil
       "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et"
      }
     }
+    ItemsInitConfigurationItem "{6A70CC0AF75D2AB6}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR.et/Suspenders/Vest_SovietHarness_Suspenders.et"
+    }
     ItemsInitConfigurationItem "{6A70CC05D9B6BCAC}" {
      TargetStorage "Vest/Vest_SovietHarness_AR.et/MagPouch_6Sh46/Pouch_Soviet_45rnd_RPK74.et"
      PrefabsToSpawn {
       "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et" "{FA95A7DF7048AB33}Prefabs/Weapons/Magazines/ARY_AKM/ARY_Magazine_762x39_AKM_40rnd_Steel_4B1TMix.et"
      }
-    }
-    ItemsInitConfigurationItem "{6A70CC0AF75D2AB6}" {
-     TargetStorage "Vest/Vest_SovietHarness_AR.et/Suspenders/Vest_SovietHarness_Suspenders.et"
     }
    }
   }

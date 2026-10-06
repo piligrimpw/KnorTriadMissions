@@ -5,6 +5,9 @@ SCR_ChimeraCharacter : "{00909D859A75254B}Prefabs/Characters/Factions/INDFOR/Mil
    components {
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
       SCR_EquipmentStorageSlot WristwatchSlot {
        Prefab "{61A705D76908160C}Prefabs/Items/Equipment/Watches/Watch_Orlik38/Watch_Orlik38.et"
       }

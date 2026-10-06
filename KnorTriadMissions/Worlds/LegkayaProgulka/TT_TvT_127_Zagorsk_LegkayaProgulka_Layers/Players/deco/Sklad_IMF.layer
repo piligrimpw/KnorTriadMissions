@@ -19,6 +19,13 @@ $grp Vehicle : "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
    SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
     "faction affiliation" "IMF"
    }
@@ -42,6 +49,13 @@ $grp Vehicle : "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
    SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
     "faction affiliation" "IMF"
    }
@@ -50,18 +64,28 @@ $grp Vehicle : "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
   angles 0 3.909 0
  }
 }
-GenericEntity : "{1AC31E2AF0C54F8A}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet_camo.et" {
- coords 3001.534 205.365 7923.578
- angles 0 -90.612 0
+GenericEntity : "{178B5DA72EB74160}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V4_cover.et" {
+ coords 2995.08 205.37 7919.007
+ angles 0 3.384 0
+}
+$grp GenericEntity : "{1AC31E2AF0C54F8A}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet_camo.et" {
  {
-  GenericEntity {
-   ID "55589B8BA14184EC"
-   coords 0 0 0
+  coords 3001.534 205.365 7923.578
+  angles 0 -90.612 0
+  {
+   GenericEntity {
+    ID "55589B8BA14184EC"
+    coords 0 0 0
+   }
   }
+ }
+ {
+  coords 3000.193 205.365 7922.503
+  angles 0 4.309 0
  }
 }
 GenericEntity : "{339AED2BCBDF3265}Prefabs/Props/Military/Camps/PalletMRE_01_Soviet.et" {
- coords 3000.037 206.402 7922.472
+ coords 3000.196 206.402 7922.472
 }
 $grp GenericEntity : "{34AD2F398FDFE5B3}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V5.et" {
  {
@@ -110,10 +134,6 @@ $grp GenericEntity : "{447D815965819A7A}Prefabs/Props/Military/AmmoBoxes/Pex_BK_
   coords 2996.748 205.365 7917.53
   angles 0 48.265 0
  }
-}
-GenericEntity : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet.et" {
- coords 3000.115 205.365 7922.425
- angles 0 4.207 0
 }
 $grp GenericEntity : "{64FC6554CDABE1AC}Prefabs/Props/Military/AmmoBoxes/Pex_Sandbags_IMF.et" {
  {
@@ -325,6 +345,10 @@ $grp GenericEntity : "{E1D3F4727988FC10}Prefabs/Props/Military/AmmoBoxes/Equipme
   coords 2997.354 205.365 7920.167
   angles 0 85.148 0
  }
+}
+GenericEntity : "{E98B1DE2DBE52D2C}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V5_cover.et" {
+ coords 2995.371 205.365 7920.192
+ angles 0 -88.129 0
 }
 $grp GenericEntity : "{EC0546F8F656FBEF}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V3.et" {
  {
