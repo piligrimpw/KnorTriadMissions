@@ -61,7 +61,8 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
     }
     ItemsInitConfigurationItem "{6A6685AAFCD76461}" {
      TargetStorage "Jacket/Jacket_KZS.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn + {
+      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6A6685AAFC0E8D91}" {
@@ -73,15 +74,11 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
     ItemsInitConfigurationItem "{6A6685ADEEDC233F}" {
      TargetStorage "Back/Backpack_RPG_Assistant.et"
      PrefabsToSpawn {
-      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et"
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
      }
     }
-    ItemsInitConfigurationItem "{6A70CC0AF75D2AB6}" {
+    ItemsInitConfigurationItem "{6A70CC0AA0E5F564}" {
      TargetStorage "Jacket/Jacket_KZS.et"
-     TargetPurpose 64
-     PrefabsToSpawn {
-      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
-     }
     }
    }
   }

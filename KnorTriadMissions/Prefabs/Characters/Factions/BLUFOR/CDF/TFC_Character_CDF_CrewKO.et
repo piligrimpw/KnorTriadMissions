@@ -25,7 +25,7 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{7747BD93D2EB2311}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_CDF.et"
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{342FF5554013488A}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_CDF.et"
@@ -39,7 +39,7 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6A647D195C15C869}" {
      PrefabsToSpawn {
-      "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et" "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et" "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+      "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et" "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et" "{327103CB218E7CA1}Prefabs/Weapons/Flares/Flare_RSP30_white.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
      }
     }
    }

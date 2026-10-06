@@ -103,6 +103,18 @@ SCR_ChimeraCharacter : "{570731D58612E374}Prefabs/Characters/Factions/BLUFOR/CDF
  angles 0 160.607 0
 }
 SCR_ChimeraCharacter : "{66A3470EA1BF1AE3}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_KO.et" {
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
+ }
  coords 1588.074 38 2928.21
  angles 0 161.001 0
 }

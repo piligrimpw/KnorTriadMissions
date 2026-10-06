@@ -31,7 +31,6 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
      Prefab "{B8C98AAF1CCD4601}Prefabs/Characters/Vests/Vest_6B5/Vest_6B5_MG.et"
     }
     LoadoutSlotInfo Back {
-     Enabled 0
     }
     LoadoutSlotInfo HandWear {
      Prefab "{8266820FFDE17477}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01.et"
@@ -52,6 +51,12 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
      TargetStorage "ArmoredVest/Vest_6B5_MG.et/PKpouch2/Pouch_Soviet_100rnd_PKM.et"
      PrefabsToSpawn {
       "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A8D364CCE42230E}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }
     }
    }

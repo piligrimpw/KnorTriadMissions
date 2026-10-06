@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
    }
-   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+   WeaponTemplate "{3C0F963BE7837901}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_PGO7_PG7VL.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -41,7 +41,7 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{6A6490D737A7BD77}" {
      TargetStorage "Back/Backpack_RPG_Gunner.et"
      PrefabsToSpawn {
-      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
      }
     }
    }

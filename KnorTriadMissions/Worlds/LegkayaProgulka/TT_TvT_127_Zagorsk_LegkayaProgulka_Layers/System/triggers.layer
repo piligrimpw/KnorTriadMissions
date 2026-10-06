@@ -1,200 +1,97 @@
 $grp PolylineShapeEntity {
- TriggerFactory {
-  coords 2982.972 194.826 7663.419
-  Points {
-   ShapePoint "{6A7678EC18036EE8}" {
-    Position 84.115 0 -35.948
-   }
-   ShapePoint "{6A7678EFE4CDB603}" {
-    Position -45.516 0 -31.586
-   }
-   ShapePoint "{6A7678EFE1C26F92}" {
-    Position -13.965 0 271.681
-   }
-   ShapePoint "{6A7678EFEF237254}" {
-    Position -111.837 0 277.332
-   }
-   ShapePoint "{6A7678EFED25163C}" {
-    Position -103.226 0 356.848
-   }
-   ShapePoint "{6A7678EFEB94772A}" {
-    Position -22.314 0 347.43
-   }
-   ShapePoint "{6A7678EFEA143153}" {
-    Position -1.161 0 353.988
-   }
-   ShapePoint "{6A7678EFF7B93F8C}" {
-    Position 175.75 0 335.964
-   }
-   ShapePoint "{6A7678EFF729F62E}" {
-    Position 193.241 0 338.186
-   }
-   ShapePoint "{6A7678EFF57A55A8}" {
-    Position 284.881 0 337.113
-   }
-   ShapePoint "{6A7678EFF4EB78E6}" {
-    Position 291.055 0 333.537
-   }
-   ShapePoint "{6A7678EFF3919D2B}" {
-    Position 300.239 0 325.427
-   }
-   ShapePoint "{6A7678EFF3E318C7}" {
-    Position 303.015 0 312.793
-   }
-   ShapePoint "{6A7678EFF2037FC7}" {
-    Position 299.584 0 238.195
-   }
-   ShapePoint "{6A7678EFF00A0F04}" {
-    Position 287.797 0 167.833
-   }
-   ShapePoint "{6A7678EFFFF918BB}" {
-    Position 266.311 0 165.402
-   }
-   ShapePoint "{6A7678EFFD98DAF0}" {
-    Position 164.122 0 91.805
-   }
-   ShapePoint "{6A7678EFFC1F56F7}" {
-    Position 153.985 0 -19.546
-   }
-   ShapePoint "{6A7678EFFB29B083}" {
-    Position 143.779 0 -60.081
-   }
-   ShapePoint "{6A7678EFFA7A3F7E}" {
-    Position 85.044 0 -57.385
-   }
-   ShapePoint "{6A7678EFF9F4AF54}" {
-    Position 83.961 0 -35.789
-   }
-   ShapePoint "{6A7678EFF84714E7}" {
-    Position -47.589 0 -31.716
-   }
-  }
-  IsClosed 1
- }
- TriggerSuburb {
-  coords 1829.599 184.274 8004.729
-  Points {
-   ShapePoint "{6A770D34B4E0EF74}" {
-    Position -106.891 0 -103.742
-   }
-   ShapePoint "{6A770D34B39FEE74}" {
-    Position -111.601 0 -82.998
-   }
-   ShapePoint "{6A770D34B374C14C}" {
-    Position -116.784 0 -49.503
-   }
-   ShapePoint "{6A770D34B2D8D882}" {
-    Position -137.228 0 -30.523
-   }
-   ShapePoint "{6A770D34B071BEF7}" {
-    Position -180.85 0 -21.923
-   }
-   ShapePoint "{6A770D34BE82FD4F}" {
-    Position -226.679 0 92.511
-   }
-   ShapePoint "{6A770D34BDBDDE4F}" {
-    Position -146.019 0 120.234
-   }
-   ShapePoint "{6A770D34BD608DB3}" {
-    Position -42.804 0 135.465
-   }
-   ShapePoint "{6A770D34B99E801D}" {
-    Position 161.89 0 126.33
-   }
-   ShapePoint "{6A770D34B89FC7CA}" {
-    Position 189.751 0 89.334
-   }
-   ShapePoint "{6A770D34B8FE098A}" {
-    Position 201.613 0 61.308
-   }
-   ShapePoint "{6A770D34B872FB45}" {
-    Position 205.952 0 38.524
-   }
-   ShapePoint "{6A770D348739DE63}" {
-    Position 99.306 0 38.783
-   }
-   ShapePoint "{6A770D34862F6C2C}" {
-    Position 99.953 0 -32.521
-   }
-   ShapePoint "{6A770D348586BC3F}" {
-    Position 135.392 0 -46.378
-   }
-   ShapePoint "{6A770D348454CBD1}" {
-    Position 140.179 0 -73.059
-   }
-   ShapePoint "{6A770D348266EDA4}" {
-    Position -97.27 0 -118.882
-   }
-  }
-  IsClosed 1
- }
-}
-$grp GenericEntity : "{0966A23E54B971A6}Prefabs/Triggers/LL_Trigger_ZoneCapture.et" {
- CaptureFactory {
+ TriggerEastCheckpoint {
   components {
-   LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+   LL_MapZoneComponent "{6A8D364B8CB0EA47}" {
+    m_FillColor 0.502 0.376 0 0.627
+    m_OutlineColor 0.502 0.376 0 1
+   }
+   LL_StatZoneComponent "{6A8D364B8BBF3F64}" {
+   }
+   LL_TriggerZoneCapture "{6A8D364AF518158C}" {
     m_bBroadcastMessage 0
-    m_sMessage "Заводская территория перешла под контроль ЧСО!"
-    m_sZoneEntityName "TriggerFactory"
-    m_sZoneDisplayName "Заводская территория"
+    m_sZoneEntityName "Восточный перекресток"
     m_sAttackerFaction "CDF"
     m_sDefenderFaction "IMF"
     m_aFlagNames {
      "Flag1"
-     "Flag2"
-     "Flag3"
-     "Flag4"
-     "Flag5"
     }
     m_fStatPoints 20
     m_fStatMaxPerPlayer 1
     m_aConditions {
-     LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+     LL_TriggerFactionCondition "{6A8D364AAF4C0BF5}" {
       m_sFaction "CDF"
       m_sVersusFaction "IMF"
+      m_fVersusMultiplier 2
      }
-     LL_TriggerFactionCondition "{69BD22C261674367}" {
-      m_sFaction "CDF"
-      m_iVersusNumber 4
+     LL_TriggerFactionCondition "{6A8D364AAE47A12B}" {
+      m_iVersusNumber 1
      }
     }
     m_fHoldSeconds 180
    }
   }
-  coords 3075.67 214.745 7839.657
+  coords 2210.3 188 8124.495
+  Points {
+   ShapePoint "{6A8D364A609B7249}" {
+    Position 17.677 0 -10.101
+   }
+   ShapePoint "{6A8D364A61D5BC08}" {
+    Position 14.217 0 -19.504
+   }
+   ShapePoint "{6A8D364A7E12BCAA}" {
+    Position 0.403 0 -21.01
+   }
+   ShapePoint "{6A8D364A7F504227}" {
+    Position -3.169 0 -29.608
+   }
+   ShapePoint "{6A8D364A7FC3B0E1}" {
+    Position -10.801 0 -29.94
+   }
+   ShapePoint "{6A8D364A7C750E72}" {
+    Position -14.039 0 -10.864
+   }
+   ShapePoint "{6A8D364A7D672215}" {
+    Position -12.349 0 12.495
+   }
+   ShapePoint "{6A8D364A7DBBDF64}" {
+    Position 14.26 0 12.324
+   }
+  }
+  IsClosed 1
  }
- CaptureSuburb {
+ TriggerWestCheckpoint {
   components {
-   LL_TriggerZoneCapture "{69BB4EC6DDE48C6F}" {
+   LL_MapZoneComponent "{6A8D364A75D0C9F8}" {
+    m_FillColor 0.503 0.376 0 0.627
+    m_OutlineColor 0.502 0.376 0 1
+   }
+   LL_StatZoneComponent "{6A8D364A7169F163}" {
+   }
+   LL_TriggerZoneCapture "{6A8D364A0EAF5103}" {
     m_bBroadcastMessage 0
-    m_sMessage "Частный сектор перешел под контроль ЧСО!"
-    m_sZoneEntityName "TriggerSuburb"
-    m_sZoneDisplayName "Частный сектор"
+    m_sZoneEntityName "Западный перекресток"
     m_sAttackerFaction "CDF"
     m_sDefenderFaction "IMF"
     m_aFlagNames {
-     "Flag6"
-     "Flag7"
-     "Flag8"
-     "Flag9"
-     "Flag10"
+     "Flag2"
     }
     m_fStatPoints 20
     m_fStatMaxPerPlayer 1
     m_aConditions {
-     LL_TriggerFactionCondition "{69BD22C0D8849EA6}" {
+     LL_TriggerFactionCondition "{6A8D36457C804502}" {
       m_sFaction "CDF"
       m_sVersusFaction "IMF"
+      m_fVersusMultiplier 2
      }
-     LL_TriggerFactionCondition "{69BD22C261674367}" {
+     LL_TriggerFactionCondition "{6A8D36457C9801AE}" {
       m_sFaction "CDF"
-      m_iVersusNumber 4
+      m_iVersusNumber 1
      }
     }
     m_fHoldSeconds 180
    }
   }
-  coords 2953.158 243.284 8451.466
+  coords 1594.728 170.539 8103.523
  }
 }
 $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
@@ -202,7 +99,7 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
   components {
    LL_TriggerCriticalLoss "{69BD22C250937F93}" {
     m_sFactionKey "CDF"
-    m_iThreshold 8
+    m_iThreshold 5
    }
   }
   coords 2583.724 174.516 7287.8
@@ -211,7 +108,7 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
   components {
    LL_TriggerCriticalLoss "{69BD22C250937F93}" {
     m_sFactionKey "IMF"
-    m_iThreshold 5
+    m_iThreshold 3
    }
   }
   coords 2598.983 173.998 7271.965
@@ -220,7 +117,7 @@ $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss
 GenericEntity : "{41A08F78A490DA42}Prefabs/Triggers/LL_Trigger_MissionEndTimer.et" {
  components {
   LL_TriggerMissionEndTimer "{69BD22C4CE5A4300}" {
-   m_iSeconds 4800
+   m_iSeconds 3600
   }
  }
  coords 2625.372 171.615 7200.216
@@ -232,6 +129,7 @@ $grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et
     m_sMessage "ЧСО получили численное превосходство над повстанцами."
     m_sFactionKey "CDF"
     m_sVersusFaction "IMF"
+    m_fSupremacyRatio 4
    }
   }
   coords 2638.931 169.906 7171.813
@@ -242,6 +140,7 @@ $grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et
     m_sMessage "Повстанцы получили численное превосходство над ЧСО."
     m_sFactionKey "IMF"
     m_sVersusFaction "CDF"
+    m_fSupremacyRatio 4
    }
   }
   coords 2644.459 169.893 7159.562
@@ -249,38 +148,10 @@ $grp GenericEntity : "{5C5FB5572DDBB20C}Prefabs/Triggers/LL_Trigger_Supremacy.et
 }
 $grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPole_02/LL_FlagPole.et" {
  Flag1 {
-  coords 3159.707 223.015 7991.765
+  coords 2202.887 189.04 8116.895
  }
  Flag2 {
-  coords 2994.698 223.843 8001.766
- }
- Flag3 {
-  coords 3130.903 217.857 7816.303
- }
- Flag4 {
-  coords 3013.928 203.417 7683.68
-  angles 0 6.049 31.894
- }
- Flag5 {
-  coords 3178.68 256.068 7887.885
-  angles 11.312 59.167 0
- }
- Flag6 {
-  coords 1942.752 181.845 7934.393
-  angles -5.142 -4.741 43.894
- }
- Flag7 {
-  coords 1984.368 184.503 8107.399
- }
- Flag8 {
-  coords 1716.632 179.134 8052.731
-  angles -0.678 -6.892 -7.518
- }
- Flag9 {
-  coords 1748.173 181.88 7947.571
- }
- Flag10 {
-  coords 1855.559 186.788 7986.21
+  coords 1593.534 170.497 8102.369
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {

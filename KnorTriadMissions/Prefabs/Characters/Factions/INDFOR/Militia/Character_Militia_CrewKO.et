@@ -63,9 +63,6 @@ SCR_ChimeraCharacter : "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Mil
     }
     ItemsInitConfigurationItem "{6A6685AAFCD76461}" {
      TargetStorage "Pants/Pants_M88VSR93_Lowboot.et"
-     PrefabsToSpawn + {
-      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
-     }
     }
     ItemsInitConfigurationItem "{6A6685AAFC0E8D91}" {
      TargetStorage "Vest/Vest_SovietHarness_belt_crew1_militia.et/MagPouch_6Sh46/Pouch_Soviet_30rnd_AK74.et"
@@ -74,11 +71,10 @@ SCR_ChimeraCharacter : "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Mil
      }
     }
     ItemsInitConfigurationItem "{6A6685ADEEDC233F}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A70CC0AA0E5F564}" {
      TargetStorage "Jacket/Jacket_M88Afghanka_Tucked.et"
-     TargetPurpose 64
-     PrefabsToSpawn {
-      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
-     }
     }
    }
   }

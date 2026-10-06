@@ -20,6 +20,9 @@ SCR_ChimeraCharacter : "{B325E4A16D9D1655}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
+    }
     LoadoutSlotInfo Back {
      Prefab ""
     }

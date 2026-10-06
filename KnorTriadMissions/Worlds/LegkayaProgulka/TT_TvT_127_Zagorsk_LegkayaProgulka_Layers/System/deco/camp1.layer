@@ -44,15 +44,6 @@ $grp GenericEntity {
   coords 2205.6 188.272 8109.413
   angles -2.561 166.322 -1.195
  }
- {
-  components {
-   MeshObject "{6A8CA610EDA1F325}" {
-    Object "{28D7F98D4475A0F8}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Small_A_dst/CanvasCover_Small_A_dst_03.xob"
-   }
-  }
-  coords 2202.873 187.764 8120.626
-  scale 1.896
- }
 }
 GenericEntity : "{036A2332E131AE05}Prefabs/Props/Military/AmmoBoxes/AmmoBox_762x54_440rnd.et" {
  coords 2206.011 187.707 8108.269

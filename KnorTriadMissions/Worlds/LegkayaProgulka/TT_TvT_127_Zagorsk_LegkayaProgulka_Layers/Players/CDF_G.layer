@@ -9,12 +9,12 @@ SCR_AIGroup CDF_000 : "{224360583F4EEC4A}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Off
  coords 420.368 167.988 3789.409
  angles 0 -50.217 0
 }
-SCR_AIGroup CDF_002 : "{269BDC46F5398EAE}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Crew.et" {
+SCR_AIGroup CDF_041 : "{269BDC46F5398EAE}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Crew.et" {
  components {
   LL_GroupCallsign "{6A7678E74D096ADD}" {
    m_iCompany 0
-   m_iPlatoon 0
-   m_iSquad 2
+   m_iPlatoon 4
+   m_iSquad 1
   }
  }
  coords 423.358 166.946 3660.254
@@ -41,7 +41,7 @@ $grp SCR_AIGroup : "{4D4AF13F5C38BA4F}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Rifles
    "{3599F74FE00D3286}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanRPK.et"
    "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et"
    "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et"
-   "{F61077665603CA2C}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MarksmanRPK.et"
+   "{570731D58612E374}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanPSO.et"
    "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et"
   }
   m_bPlayable 1
@@ -62,7 +62,7 @@ $grp SCR_AIGroup : "{4D4AF13F5C38BA4F}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Rifles
    "{3599F74FE00D3286}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanRPK.et"
    "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et"
    "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et"
-   "{F61077665603CA2C}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MarksmanRPK.et"
+   "{570731D58612E374}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanPSO.et"
    "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et"
   }
   m_bPlayable 1
@@ -83,7 +83,7 @@ $grp SCR_AIGroup : "{4D4AF13F5C38BA4F}Prefabs/Groups/BLUFOR/CDF/Group_CDF_Rifles
    "{3599F74FE00D3286}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanRPK.et"
    "{3E1141BDB70D49DD}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_AT.et"
    "{D34C454D9FCB6098}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_ATass.et"
-   "{F61077665603CA2C}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MarksmanRPK.et"
+   "{570731D58612E374}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_RiflemanPSO.et"
    "{763A186A4780872A}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_Medic.et"
   }
   m_bPlayable 1

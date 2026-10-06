@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{00909D859A75254B}Prefabs/Characters/Factions/INDFOR/Mil
      Prefab "{848637DE1ACE09A2}Prefabs/Characters/Uniforms/Shirt_Telynashka_nosleeve_PV.et"
     }
     LoadoutSlotInfo Back {
-     Prefab ""
+     Prefab "{443304F1EC50BC27}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok_Black.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{5A3E42EB4F3B4065}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_MG_militia.et"
@@ -65,8 +65,15 @@ SCR_ChimeraCharacter : "{00909D859A75254B}Prefabs/Characters/Factions/INDFOR/Mil
       "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }
     }
-    ItemsInitConfigurationItem "{6A70CC0AC882F8FC}" {
+    ItemsInitConfigurationItem "{6A70CC0AA0E5F564}" {
      TargetStorage "Vest/Vest_SovietHarness_MG_militia.et/Suspenders/Vest_SovietHarness_Suspenders_Black.et"
+    }
+    ItemsInitConfigurationItem "{6A70CC0AC882F8FC}" {
+     TargetStorage "Back/Backpack_Veshmeshok_Black.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
     }
    }
   }

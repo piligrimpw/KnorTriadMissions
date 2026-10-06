@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F61077665603CA2C}Prefabs/Characters/Factions/BLUFOR/CDF/TFC_Character_CDF_MarksmanRPK.et"
+ Name "{3C0F963BE7837901}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_PGO7_PG7VL.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
-  }
-  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

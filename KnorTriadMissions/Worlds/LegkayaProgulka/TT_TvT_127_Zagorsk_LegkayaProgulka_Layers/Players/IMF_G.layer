@@ -62,12 +62,12 @@ SCR_AIGroup IMF_000 : "{306075B25E4CA27D}Prefabs/Groups/INDFOR/Group_IMF_Officer
  coords 2969.881 206.142 7845.14
  angles 0.001 -80.88 0.001
 }
-SCR_AIGroup IMF_002 : "{6079E21A4A1C3E40}Prefabs/Groups/INDFOR/Group_IMF_Crew.et" {
+SCR_AIGroup IMF_031 : "{6079E21A4A1C3E40}Prefabs/Groups/INDFOR/Group_IMF_Crew.et" {
  components {
   LL_GroupCallsign "{6A7678E74484EA1B}" {
    m_iCompany 0
-   m_iPlatoon 0
-   m_iSquad 2
+   m_iPlatoon 3
+   m_iSquad 1
   }
  }
  coords 2542.357 181.729 7814.011

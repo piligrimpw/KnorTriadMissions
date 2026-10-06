@@ -1,0 +1,12 @@
+GenericEntity : "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_PGO7.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SCR_MuzzleInMagComponent "{50F65D04F21F7633}" {
+     AmmoTemplate "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
+    }
+   }
+  }
+ }
+}

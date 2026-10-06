@@ -26,6 +26,20 @@ $grp Vehicle : "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
    SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
     "faction affiliation" "IMF"
    }
@@ -35,6 +49,20 @@ $grp Vehicle : "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
  }
  Ural4320_transport_CIV_forest3 {
   components {
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
    SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
     m_aWheels +{
      4
@@ -204,16 +232,6 @@ GenericEntity : "{76D4B8AFA34EE178}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
 GenericEntity : "{A5EB68070B174D79}Prefabs/Props/Military/AmmoBoxes/Pex_BK_Mine_IMF.et" {
  coords 2996.61 205.784 7918.947
  angles 0 172.211 0
-}
-$grp GenericEntity : "{B8A0EA2D60C121B8}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Ammunition_01_USSR_portable_SPG.et" {
- {
-  coords 2996.73 205.365 7921.14
-  angles 0 11.786 0
- }
- {
-  coords 2995.735 205.365 7921.148
-  angles 0 5.143 0
- }
 }
 $grp GenericEntity : "{BC30696CBE4AD99D}Prefabs/Items/Equipment/CamoNetDeployable/FIA/CamoNet_AssemblyKit_FIA_01_deployable.et" {
  {

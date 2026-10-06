@@ -24,6 +24,8 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Back {
+    }
     LoadoutSlotInfo HandWear {
      Prefab "{8266820FFDE17477}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01.et"
     }
@@ -34,7 +36,7 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
     ItemsInitConfigurationItem "{6A64973520CE242C}" {
      TargetStorage "Back/Backpack_Veshmeshok.et"
      PrefabsToSpawn {
-      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
      }
     }
    }

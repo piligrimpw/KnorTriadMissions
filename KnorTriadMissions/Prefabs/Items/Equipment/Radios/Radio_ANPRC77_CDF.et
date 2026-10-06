@@ -5,9 +5,6 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
    "Encryption key" "greenBear"
    "Turned on" 1
    Transceivers {
-    RadioTransceiver "{5EA4A89F0D06E18F}" {
-     ChannelFrequency 72000
-    }
     RelayTransceiver "{6A78CA1CBAAEFE1D}" {
      ChannelFrequency 48000
      "Transmitting Range" 10000

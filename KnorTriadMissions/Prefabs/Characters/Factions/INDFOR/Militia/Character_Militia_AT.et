@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
    WeaponTemplate "{AFD8BBF0AE1A672B}Prefabs/Weapons/Rifles/AK74/Rifle_AKS74.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+   WeaponTemplate "{3C0F963BE7837901}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_PGO7_PG7VL.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -74,15 +74,11 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
     ItemsInitConfigurationItem "{6A6685ADEEDC233F}" {
      TargetStorage "Back/Backpack_RPG_Gunner.et"
      PrefabsToSpawn {
-      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et"
      }
     }
-    ItemsInitConfigurationItem "{6A70CC0AFF90E0DB}" {
+    ItemsInitConfigurationItem "{6A70CC0AA0E5F564}" {
      TargetStorage "Vest/Vest_Lifchik.et"
-     TargetPurpose 64
-     PrefabsToSpawn {
-      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
-     }
     }
    }
   }
