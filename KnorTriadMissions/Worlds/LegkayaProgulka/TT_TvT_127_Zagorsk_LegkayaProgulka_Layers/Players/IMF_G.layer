@@ -109,8 +109,8 @@ $grp SCR_AIGroup : "{F024E8255A989347}Prefabs/Groups/INDFOR/Group_IMF_RifleSquad
    "{682DCBA09335C23D}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv1.et"
    "{2AD97345DD9316E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv1.et"
    "{784BD64DD7A899E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanRPK.et"
-   "{DE8492C41722D1E2}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV3.et"
-   "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV1.et"
+   "{309FCD1385879103}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_AT.et"
+   "{235AEC43AEC6AFA0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ATass.et"
    "{3B18DE3D1BC74689}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_RiflemanV2.et"
    "{862CB164768D4812}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_Medic.et"
   }
