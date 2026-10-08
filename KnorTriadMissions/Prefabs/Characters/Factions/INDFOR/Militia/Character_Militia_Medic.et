@@ -32,6 +32,9 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
     LoadoutSlotInfo Pants {
      Prefab "{DC7CBB51867DA025}Prefabs/Characters/Uniforms/Pants_M88Spets_Lowboot.et"
     }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{83ED55C3AAD370A2}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet_expanded.et"
     }
@@ -65,4 +68,6 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
    }
   }
  }
+ coords -2.42 -0.211 -1.642
+ angles 0 68.718 0
 }

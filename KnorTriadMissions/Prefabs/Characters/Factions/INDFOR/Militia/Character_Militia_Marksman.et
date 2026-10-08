@@ -32,6 +32,9 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
     LoadoutSlotInfo Pants {
      Enabled 0
     }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
     }

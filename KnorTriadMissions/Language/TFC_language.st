@@ -3,19 +3,19 @@ StringTable {
  Items {
   CustomStringTableItem "{6A64973C3FE1B9F5}" {
    Id "CDF-Role_AT"
-   Target_en_us "AT"
+   Target_en_us "Anti-Tank"
    Target_ru_ru "Гранатомётчик"
-   Modified 1784981324
+   Modified 1787865967
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A64973C26976088}" {
    Id "CDF-Role_ATass"
-   Target_en_us "ATass"
+   Target_en_us "Anti-Tank Assistant"
    Target_ru_ru "Помощник гранатомётчика"
-   Modified 1784981366
+   Modified 1787865987
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A64973DF727F970}" {
    Id "CDF-Role_Crewman"
@@ -35,11 +35,11 @@ StringTable {
   }
   CustomStringTableItem "{6A649733C3FBD2B0}" {
    Id "CDF-Role_DeputySL"
-   Target_en_us "DeputySL"
+   Target_en_us "Deputy Squad Leader"
    Target_ru_ru "Старший стрелок"
-   Modified 1784980958
+   Modified 1787865999
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A64CE02BB4CBA8F}" {
    Id "CDF-Role_HeavyCrew"
@@ -67,33 +67,25 @@ StringTable {
   }
   CustomStringTableItem "{6A6497339D14CC5B}" {
    Id "CDF-Role_Komroty"
-   Target_en_us "Komroty"
+   Target_en_us "Platoon Leader"
    Target_ru_ru "Командир роты"
-   Modified 1786201713
+   Modified 1787866016
    Author "Вероника"
    LastChanged "Вероника"
   }
   CustomStringTableItem "{6A64973DA29DA840}" {
    Id "CDF-Role_LAT"
-   Target_en_us "LAT"
+   Target_en_us "Light Anti-Tank"
    Target_ru_ru "Стрелок-гранатомётчик"
-   Modified 1784982048
+   Modified 1787866026
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A64973D0557B640}" {
    Id "CDF-Role_Marksman"
    Target_en_us "Marksman"
    Target_ru_ru "Пехотный снайпер"
    Modified 1784981767
-   Author "User"
-   LastChanged "User"
-  }
-  CustomStringTableItem "{6A64973D67A6726C}" {
-   Id "CDF-Role_MarksmanRPK"
-   Target_en_us "MarksmanRPK"
-   Target_ru_ru "Марксман"
-   Modified 1784981715
    Author "User"
    LastChanged "User"
   }
@@ -107,19 +99,19 @@ StringTable {
   }
   CustomStringTableItem "{6A64973CF70F2B0C}" {
    Id "CDF-Role_MG"
-   Target_en_us "MG"
+   Target_en_us "Machine Gunner"
    Target_ru_ru "Пулемётчик"
-   Modified 1784981451
+   Modified 1787866042
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A64973C80927ACC}" {
    Id "CDF-Role_MGass"
-   Target_en_us "MGass"
+   Target_en_us "Machine Gunner Assistant"
    Target_ru_ru "Помощник пулемётчика"
-   Modified 1784981539
+   Modified 1787866057
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A64973C7F133799}" {
    Id "CDF-Role_Rifleman"
@@ -131,27 +123,27 @@ StringTable {
   }
   CustomStringTableItem "{6A64973D4DDA25E7}" {
    Id "CDF-Role_RiflemanRPK"
-   Target_en_us "RiflemanRPK"
+   Target_en_us "Light Machine Gunner"
    Target_ru_ru "Стрелок-пулемётчик"
-   Modified 1784981648
+   Modified 1787866083
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A64973C5D7EB006}" {
    Id "CDF-Role_ZamKomroty"
-   Target_en_us "ZamKomroty"
+   Target_en_us "Deputy Platoon Leader"
    Target_ru_ru "Заместитель командира роты"
-   Modified 1784981154
+   Modified 1787866094
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A688868434CE9A0}" {
    Id "IMF-Group_Crew"
-   Target_en_us "Crew"
+   Target_en_us "Crewmans"
    Target_ru_ru "Экипаж техники"
-   Modified 1785242554
+   Modified 1787866102
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A68886B0327ACE1}" {
    Id "IMF-Group_Fireteam"
@@ -179,49 +171,49 @@ StringTable {
   }
   CustomStringTableItem "{6A6685860EF53402}" {
    Id "IMF-Role_AT"
-   Target_en_us "AT"
+   Target_en_us "Anti-Tank"
    Target_ru_ru "Гранатомётчик"
-   Modified 1785123088
+   Modified 1787866125
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A66858628750FA7}" {
    Id "IMF-Role_ATass"
-   Target_en_us "ATass"
+   Target_en_us "Anti-Tank Assistant"
    Target_ru_ru "Помощник гранатомётчика"
-   Modified 1785123154
+   Modified 1787866136
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A6685891E5C599D}" {
    Id "IMF-Role_Crew"
-   Target_en_us "Crew"
+   Target_en_us "Crew member"
    Target_ru_ru "Экипаж"
-   Modified 1785123514
+   Modified 1787866147
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A66858954BE9E12}" {
    Id "IMF-Role_CrewKO"
-   Target_en_us "CrewKO"
+   Target_en_us "Crew Leader"
    Target_ru_ru "Командир экипажа"
-   Modified 1785123490
+   Modified 1787866158
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A66858652F13310}" {
    Id "IMF-Role_KO"
-   Target_en_us "KO"
+   Target_en_us "Squad Leader"
    Target_ru_ru "Командир группы"
-   Modified 1786303661
+   Modified 1787866169
    Author "User"
    LastChanged "Вероника"
   }
   CustomStringTableItem "{6A668584D4BACEBE}" {
    Id "IMF-Role_Komroty"
-   Target_en_us "Komroty"
+   Target_en_us "Platoon Leader"
    Target_ru_ru "Командир отряда"
-   Modified 1786303610
+   Modified 1787866194
    Author "User"
    LastChanged "Вероника"
   }
@@ -243,19 +235,19 @@ StringTable {
   }
   CustomStringTableItem "{6A668586CDF3A6DE}" {
    Id "IMF-Role_MG"
-   Target_en_us "MG"
+   Target_en_us "Machine Gunner"
    Target_ru_ru "Пулемётчик"
-   Modified 1785123205
+   Modified 1787866201
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A668586F7C34A8E}" {
    Id "IMF-Role_MGass"
-   Target_en_us "MGass"
+   Target_en_us "Machine Gunner Assistant"
    Target_ru_ru "Помощник пулемётчика"
-   Modified 1785123249
+   Modified 1787866212
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A66858666665025}" {
    Id "IMF-Role_Rifleman"
@@ -267,25 +259,25 @@ StringTable {
   }
   CustomStringTableItem "{6A66858691C66E04}" {
    Id "IMF-Role_RiflemanRPK"
-   Target_en_us "RiflemanRPK"
+   Target_en_us "Light Machine Gunner"
    Target_ru_ru "Стрелок-пулемётчик"
-   Modified 1785123300
+   Modified 1787866227
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A66858795835C90}" {
    Id "IMF-Role_Zamcomroty"
-   Target_en_us "Zamcomroty"
+   Target_en_us "Deputy Platoon Leader"
    Target_ru_ru "Заместитель командира отряда"
-   Modified 1786303626
+   Modified 1787866260
    Author "User"
    LastChanged "Вероника"
   }
   CustomStringTableItem "{6A6685867E08911F}" {
    Id "IMF-Role_ZKO"
-   Target_en_us "ZKO"
+   Target_en_us "Deputy Squad Leader"
    Target_ru_ru "Зам командира группы"
-   Modified 1786303642
+   Modified 1787866249
    Author "User"
    LastChanged "Вероника"
   }
@@ -324,18 +316,18 @@ StringTable {
   CustomStringTableItem "{6A68834A06F657B1}" {
    Id "TFI-Faction_IMF-UC"
    Target_en_us "IMF"
-   Target_ru_ru "Ополченцы"
-   Modified 1785234888
+   Target_ru_ru "Ополчение"
+   Modified 1787866286
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A68834B168F11BA}" {
    Id "TFI-FactionName_IMF"
    Target_en_us "IMF"
-   Target_ru_ru "Ополченцы"
-   Modified 1785234460
+   Target_ru_ru "Ополченцие"
+   Modified 1787866276
    Author "User"
-   LastChanged "User"
+   LastChanged "Вероника"
   }
   CustomStringTableItem "{6A688862E8BFF28C}" {
    Id "TFI-Flag_IMF"
