@@ -1712,6 +1712,10 @@ $grp GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 91.558 0
  }
 }
+GenericEntity : "{E1EBAB390EB6BEF7}Prefabs/Props/Civilian/RadioSmall_USSR_01_black.et" {
+ coords 2217.369 188.306 8111.456
+ angles 0 155.09 0
+}
 GenericEntity : "{E51888BE58201388}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_newspaper_V3.et" {
  coords 2205.509 189.046 8110.516
  angles 0 -95.424 0

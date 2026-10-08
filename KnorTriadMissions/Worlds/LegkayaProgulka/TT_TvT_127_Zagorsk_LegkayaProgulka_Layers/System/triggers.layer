@@ -24,6 +24,7 @@ $grp PolylineShapeEntity {
       m_fVersusMultiplier 2
      }
      LL_TriggerFactionCondition "{6A8D364AAE47A12B}" {
+      m_sFaction "CDF"
       m_iVersusNumber 1
      }
     }
@@ -92,6 +93,24 @@ $grp PolylineShapeEntity {
    }
   }
   coords 1594.728 170.539 8103.523
+  Points {
+   ShapePoint "{6A8EE4A7F3DE0013}" {
+    Position -9.793 0 -16.104
+   }
+   ShapePoint "{6A8EE4A7F035D40C}" {
+    Position 31.961 0 -1.062
+   }
+   ShapePoint "{6A8EE4A7F09C0C43}" {
+    Position 28.937 0 6.74
+   }
+   ShapePoint "{6A8EE4A7F11FE7D9}" {
+    Position 15.864 0 18.056
+   }
+   ShapePoint "{6A8EE4A7F1E84F30}" {
+    Position -16.274 0 7.681
+   }
+  }
+  IsClosed 1
  }
 }
 $grp GenericEntity : "{2808BD90796C1E4E}Prefabs/Triggers/LL_Trigger_CriticalLoss.et" {
@@ -151,7 +170,7 @@ $grp GenericEntity : "{8C5EB89AA51483A4}Prefabs/Structures/Military/Flags/FlagPo
   coords 2202.887 189.04 8116.895
  }
  Flag2 {
-  coords 1593.534 170.497 8102.369
+  coords 1621.22 172.39 8109.145
  }
 }
 $grp SCR_EditorRestrictionZoneEntity : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
