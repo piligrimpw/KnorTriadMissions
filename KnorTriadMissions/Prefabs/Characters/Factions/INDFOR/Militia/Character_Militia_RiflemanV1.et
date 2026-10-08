@@ -54,12 +54,8 @@ SCR_ChimeraCharacter : "{A10F1F6072CA42B7}Prefabs/Characters/Factions/INDFOR/Mil
      PrefabsToSpawn +{
      }
     }
-    ItemsInitConfigurationItem "{6A70CC0AF994CAA7}" {
+    ItemsInitConfigurationItem "{6A70CC0AA0E5F564}" {
      TargetStorage "Jacket/Jacket_US_BDU_rolledup_02_nobelt.et"
-     TargetPurpose 64
-     PrefabsToSpawn {
-      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
-     }
     }
    }
   }

@@ -39,14 +39,11 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
       "{1C911B6A3A31FACA}Prefabs/Items/Equipment/Radios/Radio_R148_CDF.et"
      }
     }
-    ItemsInitConfigurationItem "{6A647D195C15C86B}" {
-     PrefabsToSpawn + {
-      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
-     }
-    }
     ItemsInitConfigurationItem "{6A647D195C15C869}" {
      PrefabsToSpawn +{
      }
+    }
+    ItemsInitConfigurationItem "{6A647D195C15C86B}" {
     }
     ItemsInitConfigurationItem "{6A649730F9758F7B}" {
      TargetStorage "Back/Backpack_Medical_Soviet_expanded.et"

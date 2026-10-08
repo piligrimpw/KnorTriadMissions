@@ -72,7 +72,7 @@ SCR_ChimeraCharacter : "{00909D859A75254B}Prefabs/Characters/Factions/INDFOR/Mil
      TargetStorage "Back/Backpack_Veshmeshok_Black.et"
      TargetPurpose 1
      PrefabsToSpawn {
-      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{1F770FB6FB76DB1E}Prefabs/Items/Equipment/Radios/Radio_Baofeng_IMF.et"
      }
     }
    }

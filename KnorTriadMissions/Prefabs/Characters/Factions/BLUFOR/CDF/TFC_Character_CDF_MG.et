@@ -41,6 +41,11 @@ SCR_ChimeraCharacter : "{202C31E96C7E6BA5}Prefabs/Characters/Factions/BLUFOR/CDF
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
     }
+    ItemsInitConfigurationItem "{6A647D195C15C869}" {
+     PrefabsToSpawn + {
+      "{1C911B6A3A31FACA}Prefabs/Items/Equipment/Radios/Radio_R148_CDF.et"
+     }
+    }
     ItemsInitConfigurationItem "{6A647D195C15C86B}" {
      TargetStorage "ArmoredVest/Vest_6B5_MG.et/PKpouch1/Pouch_Soviet_100rnd_PKM.et"
      PrefabsToSpawn {

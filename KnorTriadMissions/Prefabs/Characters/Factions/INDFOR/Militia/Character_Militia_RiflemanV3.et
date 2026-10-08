@@ -41,7 +41,7 @@ SCR_ChimeraCharacter : "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Mil
     }
     ItemsInitConfigurationItem "{6A6685AAFC0E8D91}" {
      PrefabsToSpawn {
-      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
     ItemsInitConfigurationItem "{6A6685ADEEDC233F}" {
@@ -52,9 +52,6 @@ SCR_ChimeraCharacter : "{6F32349C283DF094}Prefabs/Characters/Factions/INDFOR/Mil
     }
     ItemsInitConfigurationItem "{6A70CC0AA0E5F564}" {
      TargetStorage "Vest/Vest_SovietHarness_rifleman.et/Suspenders/Vest_SovietHarness_Suspenders.et"
-    }
-    ItemsInitConfigurationItem "{6A70CC0AF994CAA7}" {
-     Enabled 0
     }
    }
   }
