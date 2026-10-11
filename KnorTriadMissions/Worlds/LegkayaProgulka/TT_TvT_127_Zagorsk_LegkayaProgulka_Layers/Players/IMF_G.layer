@@ -103,8 +103,8 @@ $grp SCR_AIGroup : "{F024E8255A989347}Prefabs/Groups/INDFOR/Group_IMF_RifleSquad
     m_iSquad 1
    }
   }
-  coords 1597.679 184.135 7184.97
-  angles 0 -111.232 0
+  coords 1625.02 171.385 8106.304
+  angles 1.18 -17.215 -2.239
   m_aUnitPrefabSlots {
    "{682DCBA09335C23D}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_KOv1.et"
    "{2AD97345DD9316E0}Prefabs/Characters/Factions/INDFOR/Militia/Character_Militia_ZKOv1.et"

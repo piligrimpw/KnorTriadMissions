@@ -40,6 +40,13 @@ $grp Vehicle : "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
     }
     m_fDustTopSpeed 60
    }
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
    SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
     "faction affiliation" "IMF"
    }
@@ -49,6 +56,13 @@ $grp Vehicle : "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tra
  }
  Ural4320_transport_CIV_forest3 {
   components {
+   SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
+    m_aWheels +{
+     4
+     5
+    }
+    m_fDustTopSpeed 60
+   }
    SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
     m_aWheels +{
      4
@@ -135,20 +149,8 @@ GenericEntity : "{3AE0A97C6595801F}Prefabs/Props/Military/WaterTanks/MobileWater
 }
 $grp GenericEntity : "{447D815965819A7A}Prefabs/Props/Military/AmmoBoxes/Pex_BK_IMF.et" {
  {
-  coords 2995.74 205.365 7918.037
-  angles 0 -42.95 0
- }
- {
   coords 2995.979 205.365 7917.544
   angles 0 -58.358 0
- }
- {
-  coords 2996.349 205.365 7917.951
-  angles 0 -146.535 0
- }
- {
-  coords 2995.998 205.538 7917.909
-  angles 0 -6.918 0
  }
  {
   coords 2996.388 205.365 7917.125
@@ -177,28 +179,6 @@ $grp GenericEntity : "{64FC6554CDABE1AC}Prefabs/Props/Military/AmmoBoxes/Pex_San
   angles 0 85.411 0
  }
 }
-$grp GenericEntity : "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et" {
- {
-  coords 2995.82 205.677 7918.703
-  angles -71.176 118.899 -77.59
- }
- {
-  coords 2995.776 205.683 7918.625
-  angles -74.136 144.557 -81.439
- }
- {
-  coords 2995.963 205.674 7918.681
-  angles -63.482 123.007 78.95
- }
- {
-  coords 2996.658 206.137 7919.493
-  angles 1.728 109.582 -94.219
- }
- {
-  coords 2996.625 206.132 7919.368
-  angles 1.728 109.582 87.421
- }
-}
 $grp GenericEntity : "{752F7880082949CC}Prefabs/Items/Equipment/CamoNetDeployable/FIA/CamoNet_Folded_FIA_01_V1.et" {
  {
   coords 2992.853 205.365 7922.126
@@ -211,14 +191,6 @@ $grp GenericEntity : "{752F7880082949CC}Prefabs/Items/Equipment/CamoNetDeployabl
  {
   coords 2992.822 205.365 7921.416
   angles 0 -83.399 0
- }
- {
-  coords 2992.73 206.275 7921.426
-  angles 0 -85.304 0
- }
- {
-  coords 2992.81 205.877 7921.793
-  angles 0 -85.445 0
  }
  {
   coords 2992.742 205.365 7920.754
@@ -235,20 +207,12 @@ GenericEntity : "{A5EB68070B174D79}Prefabs/Props/Military/AmmoBoxes/Pex_BK_Mine_
 }
 $grp GenericEntity : "{BC30696CBE4AD99D}Prefabs/Items/Equipment/CamoNetDeployable/FIA/CamoNet_AssemblyKit_FIA_01_deployable.et" {
  {
-  coords 2991.752 205.365 7918.795
-  angles 0 9.468 0
- }
- {
   coords 2992.672 205.365 7915.395
   angles 0 -81.981 0
  }
  {
   coords 2991.476 205.365 7916.984
   angles 0 8.36 0
- }
- {
-  coords 2991.582 205.365 7917.903
-  angles 0 8.097 0
  }
  {
   coords 2992.86 205.365 7917.302
@@ -292,68 +256,6 @@ $grp GenericEntity : "{D13163C0833A72D8}Prefabs/Props/Military/AmmoBoxes/Equipme
   angles 0 5.576 0
  }
 }
-$grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
- {
-  coords 2997.995 205.365 7914.045
- }
- {
-  coords 2997.636 205.365 7914.063
- }
- {
-  coords 2997.811 205.365 7914.355
- }
- {
-  coords 2997.987 205.365 7914.638
- }
- {
-  coords 2997.475 205.365 7914.351
- }
- {
-  coords 2997.614 205.365 7914.678
- }
- {
-  coords 2997.235 205.365 7914.113
- }
- {
-  coords 2997.288 205.365 7914.634
- }
- {
-  coords 2997.019 205.365 7914.379
- }
- {
-  coords 2997.436 205.457 7914.134
- }
- {
-  coords 2997.813 205.46 7914.145
- }
- {
-  coords 2997.776 205.461 7914.548
- }
- {
-  coords 2997.432 205.457 7914.512
- }
- {
-  coords 2997.108 205.459 7914.291
- }
- {
-  coords 2997.315 205.553 7914.33
- }
- {
-  coords 2996.73 205.365 7914.214
- }
- {
-  coords 2996.935 205.365 7914.682
- }
- {
-  coords 2997.401 205.365 7914.963
- }
- {
-  coords 2997.774 205.365 7914.972
- }
- {
-  coords 2997.582 205.457 7914.839
- }
-}
 $grp GenericEntity : "{E1D3F4727988FC10}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Ammunition_01_USSR_portable_AGS.et" {
  {
   coords 2997.288 205.365 7919.124
@@ -362,6 +264,28 @@ $grp GenericEntity : "{E1D3F4727988FC10}Prefabs/Props/Military/AmmoBoxes/Equipme
  {
   coords 2997.354 205.365 7920.167
   angles 0 85.148 0
+ }
+ {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6A7694DB5A84C348}" {
+      SlotTemplate InventoryStorageSlot ammo_AGS {
+       Prefab "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{6A96DB2B2E85CDC3}" {
+      SlotTemplate InventoryStorageSlot ammo_AGS {
+       Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+      }
+      NumSlots 6
+     }
+    }
+   }
+  }
+  coords 2997.004 205.365 7914.484
+  angles 0 4.06 0
  }
 }
 GenericEntity : "{E98B1DE2DBE52D2C}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V5_cover.et" {
